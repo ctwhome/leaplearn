@@ -1,0 +1,35 @@
+/**
+ *  Leap Learn
+ * ----------------------
+ * GNU GPLv3 License (c) - 2014
+ *
+ * @link http://www.github.com/learnlab
+ * @copyright GNU GPLv3 License, http://gnu.org/copyleft/gpl.html
+ * @author Jesus Garcia <ctw@ctwhome.com> 25/07/14, 22:35.
+ *
+ * Styles css
+ * ---------------------
+ */
+
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+//@import 'vendor/normalize';
+//@import 'vendor/simplegrid';                  // Documentation: http://thisisdallas.github.io/Simple-Grid/
+//@import 'vendor/animate';                     // Documentation: http://daneden.github.io/animate.css/
+@import '../../assets/scss/vendor/bootstrap/bootstrap.min.css';
+
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+//@import 'base/vars';
+//@import 'base/bootstrap-variables';
+
+
+/* FRAMEWORK - Structure and layout files.
+========================================================================== */
+// Navs
+//@import 'framework/pages/index';
+
+
+/* MODULES - Re-usable site elements.
+========================================================================== */
+//@import 'modules/animated-menu';
