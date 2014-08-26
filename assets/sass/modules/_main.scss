@@ -1,0 +1,57 @@
+body{
+    /*text-align: center;*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCC;
+}
+
+
+
+
+
+
+// FROM TNA: MAYBE BORRAR
+
+//// Base styles
+//html {
+//    height: 100%;
+//                   margin: 0;
+//    padding: 0;
+//}
+//body {
+//    @extend html;
+//    background: {
+//        attachment: fixed;
+//        image: url(../img/TNA/background.jpg);
+//        repeat: no-repeat;
+//        size: cover;
+//    }
+//    color: $color-text-default;
+//    margin: -1px 0 0;
+//    padding: 1px 0 0 $grid * 8;
+//}
+//
+//// Typography base
+//@import '../MIC/modules/_typography';
+//
+//// Base elements
+//p {
+//    margin: 0 0 1em 0;
+//}
+//a {
+//    color: $color-link-default;
+//    cursor: pointer;
+//}
+//
+///* Z-index levels
+//*	body: 1 - 1000
+//* widgets: 1000 - 2000
+//* personal nav: 4000 - 5000
+//* nav: 5000 - 6000;
+//*/
+//$z-body: 1;
+//$z-desktop: 1000;
+//$z-widget: 1000;
+//$z-nav-personal: 4000;
+//$z-nav: 5000;
+//

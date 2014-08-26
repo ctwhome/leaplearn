@@ -1,0 +1,62 @@
+#dashboard{
+
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0; top:0; left:0; right:0;
+    margin: 2% 2% 2% 10%;
+    background-color: green;
+    max-width: 1040px;
+}
+
+
+#dashboard header,  #dashboard footer{
+    background-color: red;
+}
+#dashboard header{
+    top: 0;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+}
+
+
+#dashboard article{
+    display: block;
+    position:absolute;
+
+    bottom:0; top:0; left:0; right:0;
+    margin: 70px 0px 60px 0px;
+
+    overflow-y: auto;		/* Vertical overflow*/
+    overflow-x:hidden; 		/* Horizontal overflow */
+
+    background-color: grey;
+}
+
+
+#dashboard footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 8%;
+    max-width: 70px;
+    display: block;
+    background-color: #333;
+    text-align: center;
+}
+button{
+    width: 70%;
+    margin: 10px auto;
+}
