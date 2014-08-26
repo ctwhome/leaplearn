@@ -1,0 +1,729 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.23
+3 info using node@v0.11.14-pre
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/var/www/html5/require.js',
+5 verbose install   [ 'file_path',
+5 verbose install     'utils',
+5 verbose install     'template',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-jsbeautifier' ] ]
+6 info preinstall require.js@0.2.5
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping grunt@ /var/www/html5/require.js
+9 verbose already installed skipping grunt-contrib-uglify@ /var/www/html5/require.js
+10 verbose already installed skipping grunt-contrib-watch@ /var/www/html5/require.js
+11 verbose already installed skipping grunt-jsbeautifier@ /var/www/html5/require.js
+12 verbose cache add [ 'file_path@git://github.com/nathanfaucett/file_path', null ]
+13 verbose cache add name=undefined spec="file_path@git://github.com/nathanfaucett/file_path" args=["file_path@git://github.com/nathanfaucett/file_path",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'file_path@git://github.com/nathanfaucett/file_path',
+14 verbose parsed url   path: 'file_path@git://github.com/nathanfaucett/file_path',
+14 verbose parsed url   href: 'file_path@git://github.com/nathanfaucett/file_path' }
+15 verbose cache add [ 'utils@git://github.com/nathanfaucett/utils', null ]
+16 verbose cache add name=undefined spec="utils@git://github.com/nathanfaucett/utils" args=["utils@git://github.com/nathanfaucett/utils",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'utils@git://github.com/nathanfaucett/utils',
+17 verbose parsed url   path: 'utils@git://github.com/nathanfaucett/utils',
+17 verbose parsed url   href: 'utils@git://github.com/nathanfaucett/utils' }
+18 verbose cache add [ 'template@git://github.com/nathanfaucett/template', null ]
+19 verbose cache add name=undefined spec="template@git://github.com/nathanfaucett/template" args=["template@git://github.com/nathanfaucett/template",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'template@git://github.com/nathanfaucett/template',
+20 verbose parsed url   path: 'template@git://github.com/nathanfaucett/template',
+20 verbose parsed url   href: 'template@git://github.com/nathanfaucett/template' }
+21 verbose cache add name="file_path" spec="git://github.com/nathanfaucett/file_path" args=["file_path","git://github.com/nathanfaucett/file_path"]
+22 verbose parsed url { protocol: 'git:',
+22 verbose parsed url   slashes: true,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: 'github.com',
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: 'github.com',
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '/nathanfaucett/file_path',
+22 verbose parsed url   path: '/nathanfaucett/file_path',
+22 verbose parsed url   href: 'git://github.com/nathanfaucett/file_path' }
+23 verbose cache add name="utils" spec="git://github.com/nathanfaucett/utils" args=["utils","git://github.com/nathanfaucett/utils"]
+24 verbose parsed url { protocol: 'git:',
+24 verbose parsed url   slashes: true,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: 'github.com',
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: 'github.com',
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '/nathanfaucett/utils',
+24 verbose parsed url   path: '/nathanfaucett/utils',
+24 verbose parsed url   href: 'git://github.com/nathanfaucett/utils' }
+25 verbose cache add name="template" spec="git://github.com/nathanfaucett/template" args=["template","git://github.com/nathanfaucett/template"]
+26 verbose parsed url { protocol: 'git:',
+26 verbose parsed url   slashes: true,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: 'github.com',
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: 'github.com',
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '/nathanfaucett/template',
+26 verbose parsed url   path: '/nathanfaucett/template',
+26 verbose parsed url   href: 'git://github.com/nathanfaucett/template' }
+27 silly lockFile ea8afb04-thub-com-nathanfaucett-file-path git://github.com/nathanfaucett/file_path
+28 verbose lock git://github.com/nathanfaucett/file_path /home/nathan/.npm/ea8afb04-thub-com-nathanfaucett-file-path.lock
+29 silly lockFile e2d5f7ab-t-github-com-nathanfaucett-utils git://github.com/nathanfaucett/utils
+30 verbose lock git://github.com/nathanfaucett/utils /home/nathan/.npm/e2d5f7ab-t-github-com-nathanfaucett-utils.lock
+31 silly lockFile f6987d34-ithub-com-nathanfaucett-template git://github.com/nathanfaucett/template
+32 verbose lock git://github.com/nathanfaucett/template /home/nathan/.npm/f6987d34-ithub-com-nathanfaucett-template.lock
+33 verbose addRemoteGit [ 'git://github.com/nathanfaucett/file_path', 'master' ]
+34 verbose addRemoteGit [ 'git://github.com/nathanfaucett/utils', 'master' ]
+35 verbose addRemoteGit [ 'git://github.com/nathanfaucett/template', 'master' ]
+36 verbose git remote.origin.url git://github.com/nathanfaucett/file_path
+37 verbose git remote.origin.url git://github.com/nathanfaucett/template
+38 verbose git remote.origin.url git://github.com/nathanfaucett/utils
+39 verbose git fetch -a origin (git://github.com/nathanfaucett/file_path)
+40 verbose git rev-list -n1 master 4a07a5f3261aaa7acb1cb9cd91d8a7eec0eba4fa
+41 verbose resolved git url git://github.com/nathanfaucett/file_path#4a07a5f3261aaa7acb1cb9cd91d8a7eec0eba4fa
+42 verbose git fetch -a origin (git://github.com/nathanfaucett/template)
+43 verbose tar unpack /tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz
+44 silly lockFile 8fc2a2c9-14272009441629052-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz-unpack
+45 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz-unpack /home/nathan/.npm/8fc2a2c9-14272009441629052-tmp-tgz-unpack.lock
+46 silly lockFile d18e07d8-6599-0-14272009441629052-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz
+47 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz /home/nathan/.npm/d18e07d8-6599-0-14272009441629052-tmp-tgz.lock
+48 verbose git fetch -a origin (git://github.com/nathanfaucett/utils)
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry
+51 silly gunzTarPerm modified mode [ '', 509, 493 ]
+52 silly gunzTarPerm extractEntry .gitignore
+53 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+56 silly gunzTarPerm extractEntry Gruntfile.js
+57 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+58 verbose git rev-list -n1 master 8d0c21ff4340286203c8d5ee55ac93a623ff2f85
+59 verbose resolved git url git://github.com/nathanfaucett/template#8d0c21ff4340286203c8d5ee55ac93a623ff2f85
+60 verbose git rev-list -n1 master c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3
+61 verbose resolved git url git://github.com/nathanfaucett/utils#c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+64 silly gunzTarPerm extractEntry bower.json
+65 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+66 verbose tar unpack /tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz
+67 silly lockFile 49226ce8-07492829114198685-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz-unpack
+68 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz-unpack /home/nathan/.npm/49226ce8-07492829114198685-tmp-tgz-unpack.lock
+69 silly lockFile 359125e3-628-0-007492829114198685-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz
+70 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz /home/nathan/.npm/359125e3-628-0-007492829114198685-tmp-tgz.lock
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+73 silly gunzTarPerm extractEntry src/
+74 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 verbose tar unpack /tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz
+77 silly lockFile b0324b19-0-942313029197976-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz-unpack
+78 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz-unpack /home/nathan/.npm/b0324b19-0-942313029197976-tmp-tgz-unpack.lock
+79 silly lockFile 09c954bc-316633-0-942313029197976-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz
+80 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz /home/nathan/.npm/09c954bc-316633-0-942313029197976-tmp-tgz.lock
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry
+83 silly gunzTarPerm modified mode [ '', 509, 493 ]
+84 silly gunzTarPerm extractEntry src/file_path.js
+85 silly gunzTarPerm modified mode [ 'src/file_path.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry src/file_path_windows.js
+87 silly gunzTarPerm modified mode [ 'src/file_path_windows.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry .gitignore
+89 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+90 silly gunzTarPerm extractEntry .npmignore
+91 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+92 silly gunzTarPerm extractEntry Gruntfile.js
+93 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+94 silly gunzTarPerm extractEntry
+95 silly gunzTarPerm modified mode [ '', 509, 493 ]
+96 silly gunzTarPerm extractEntry src/index.js
+97 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry README.md
+99 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+100 silly gunzTarPerm extractEntry bower.json
+101 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+102 silly gunzTarPerm extractEntry .gitignore
+103 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+104 silly gunzTarPerm extractEntry .npmignore
+105 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+106 silly gunzTarPerm extractEntry Gruntfile.js
+107 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+108 silly gunzTarPerm extractEntry README.md
+109 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+110 silly gunzTarPerm extractEntry bower.json
+111 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+114 silly gunzTarPerm extractEntry src/
+115 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+116 silly gunzTarPerm extractEntry package.json
+117 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+118 silly gunzTarPerm extractEntry src/
+119 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+120 silly gunzTarPerm extractEntry src/index.js
+121 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry src/index.js
+123 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+124 silly lockFile 49226ce8-07492829114198685-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz-unpack
+125 silly lockFile 49226ce8-07492829114198685-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz-unpack
+126 silly lockFile 359125e3-628-0-007492829114198685-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz
+127 silly lockFile 359125e3-628-0-007492829114198685-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316628-0.007492829114198685/tmp.tgz
+128 silly lockFile 8fc2a2c9-14272009441629052-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz-unpack
+129 silly lockFile 8fc2a2c9-14272009441629052-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz-unpack
+130 silly lockFile d18e07d8-6599-0-14272009441629052-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz
+131 silly lockFile d18e07d8-6599-0-14272009441629052-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316599-0.14272009441629052/tmp.tgz
+132 silly lockFile f6987d34-ithub-com-nathanfaucett-template git://github.com/nathanfaucett/template
+133 silly lockFile f6987d34-ithub-com-nathanfaucett-template git://github.com/nathanfaucett/template
+134 silly lockFile b0324b19-0-942313029197976-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz-unpack
+135 silly lockFile b0324b19-0-942313029197976-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz-unpack
+136 silly lockFile 09c954bc-316633-0-942313029197976-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz
+137 silly lockFile 09c954bc-316633-0-942313029197976-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341316633-0.942313029197976/tmp.tgz
+138 silly lockFile ea8afb04-thub-com-nathanfaucett-file-path git://github.com/nathanfaucett/file_path
+139 silly lockFile ea8afb04-thub-com-nathanfaucett-file-path git://github.com/nathanfaucett/file_path
+140 silly lockFile e2d5f7ab-t-github-com-nathanfaucett-utils git://github.com/nathanfaucett/utils
+141 silly lockFile e2d5f7ab-t-github-com-nathanfaucett-utils git://github.com/nathanfaucett/utils
+142 silly resolved [ { name: 'template',
+142 silly resolved     version: '0.0.1',
+142 silly resolved     description: 'template for the browser and node.js',
+142 silly resolved     repository:
+142 silly resolved      { type: 'git',
+142 silly resolved        url: 'https://github.com/nathanfaucett/template.git' },
+142 silly resolved     main: 'src/index.js',
+142 silly resolved     keywords: [ 'template', 'template.js' ],
+142 silly resolved     author: { name: 'Nathan Faucett' },
+142 silly resolved     license: 'BSD-2-Clause',
+142 silly resolved     readmeFilename: 'README.md',
+142 silly resolved     devDependencies: { grunt: '', 'grunt-jsbeautifier': '' },
+142 silly resolved     readme: 'Template\n=======\n\ntemplate for the browser and node.js',
+142 silly resolved     bugs: { url: 'https://github.com/nathanfaucett/template/issues' },
+142 silly resolved     homepage: 'https://github.com/nathanfaucett/template',
+142 silly resolved     _id: 'template@0.0.1',
+142 silly resolved     _shasum: 'eff2e60428ecae199dd084d4f157b999d1be00a9',
+142 silly resolved     _resolved: 'git://github.com/nathanfaucett/template#8d0c21ff4340286203c8d5ee55ac93a623ff2f85',
+142 silly resolved     _from: 'template@git://github.com/nathanfaucett/template' },
+142 silly resolved   { name: 'file_path',
+142 silly resolved     version: '0.0.1',
+142 silly resolved     description: 'file path utils for the browser and node.js',
+142 silly resolved     repository:
+142 silly resolved      { type: 'git',
+142 silly resolved        url: 'https://github.com/nathanfaucett/file_path.git' },
+142 silly resolved     main: 'src/index.js',
+142 silly resolved     keywords:
+142 silly resolved      [ 'path',
+142 silly resolved        'path.js',
+142 silly resolved        'file_path',
+142 silly resolved        'file_path.js',
+142 silly resolved        'filePath',
+142 silly resolved        'file',
+142 silly resolved        'filepath',
+142 silly resolved        'file-path' ],
+142 silly resolved     author: { name: 'Nathan Faucett' },
+142 silly resolved     license: 'BSD-2-Clause',
+142 silly resolved     readmeFilename: 'README.md',
+142 silly resolved     devDependencies: { grunt: '', 'grunt-jsbeautifier': '' },
+142 silly resolved     dependencies:
+142 silly resolved      { path_utils: 'git+https://github.com/nathanfaucett/path_utils',
+142 silly resolved        utils: 'git+https://github.com/nathanfaucett/utils' },
+142 silly resolved     readme: 'filePath\n=======\n\nfile path utils for the browser and node.js',
+142 silly resolved     bugs: { url: 'https://github.com/nathanfaucett/file_path/issues' },
+142 silly resolved     homepage: 'https://github.com/nathanfaucett/file_path',
+142 silly resolved     _id: 'file_path@0.0.1',
+142 silly resolved     _shasum: '73b9251e1f9564a277d508fecfb2e87f89749962',
+142 silly resolved     _resolved: 'git://github.com/nathanfaucett/file_path#4a07a5f3261aaa7acb1cb9cd91d8a7eec0eba4fa',
+142 silly resolved     _from: 'file_path@git://github.com/nathanfaucett/file_path' },
+142 silly resolved   { name: 'utils',
+142 silly resolved     version: '0.0.1',
+142 silly resolved     description: 'utils for the browser and node.js',
+142 silly resolved     repository:
+142 silly resolved      { type: 'git',
+142 silly resolved        url: 'https://github.com/nathanfaucett/utils.git' },
+142 silly resolved     main: 'src/index.js',
+142 silly resolved     keywords: [ 'utils', 'utils.js' ],
+142 silly resolved     author: { name: 'Nathan Faucett' },
+142 silly resolved     license: 'BSD-2-Clause',
+142 silly resolved     readmeFilename: 'README.md',
+142 silly resolved     devDependencies: { grunt: '', 'grunt-jsbeautifier': '' },
+142 silly resolved     readme: 'utils\n=======\n\nutils for the browser and node.js',
+142 silly resolved     bugs: { url: 'https://github.com/nathanfaucett/utils/issues' },
+142 silly resolved     homepage: 'https://github.com/nathanfaucett/utils',
+142 silly resolved     _id: 'utils@0.0.1',
+142 silly resolved     _shasum: 'f3ecb12df6615821ef98026fb71ed74d7c1ac67a',
+142 silly resolved     _resolved: 'git://github.com/nathanfaucett/utils#c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3',
+142 silly resolved     _from: 'utils@git://github.com/nathanfaucett/utils' } ]
+143 info install template@0.0.1 into /var/www/html5/require.js
+144 info install file_path@0.0.1 into /var/www/html5/require.js
+145 info install utils@0.0.1 into /var/www/html5/require.js
+146 info installOne template@0.0.1
+147 info installOne file_path@0.0.1
+148 info installOne utils@0.0.1
+149 verbose node_modules/template unbuild
+150 info preuninstall template@0.0.1
+151 verbose node_modules/utils unbuild
+152 info preuninstall utils@0.0.1
+153 verbose node_modules/file_path unbuild
+154 info preuninstall file_path@0.0.1
+155 info uninstall template@0.0.1
+156 info uninstall utils@0.0.1
+157 info uninstall file_path@0.0.1
+158 verbose true,/var/www/html5/require.js/node_modules,/var/www/html5/require.js/node_modules unbuild template@0.0.1
+159 info postuninstall template@0.0.1
+160 verbose true,/var/www/html5/require.js/node_modules,/var/www/html5/require.js/node_modules unbuild utils@0.0.1
+161 info postuninstall utils@0.0.1
+162 verbose true,/var/www/html5/require.js/node_modules,/var/www/html5/require.js/node_modules unbuild file_path@0.0.1
+163 info postuninstall file_path@0.0.1
+164 verbose tar unpack /home/nathan/.npm/template/0.0.1/package.tgz
+165 silly lockFile 62ea34e3-require-js-node-modules-template tar:///var/www/html5/require.js/node_modules/template
+166 verbose lock tar:///var/www/html5/require.js/node_modules/template /home/nathan/.npm/62ea34e3-require-js-node-modules-template.lock
+167 silly lockFile 4b0c2941-n-npm-template-0-0-1-package-tgz tar:///home/nathan/.npm/template/0.0.1/package.tgz
+168 verbose lock tar:///home/nathan/.npm/template/0.0.1/package.tgz /home/nathan/.npm/4b0c2941-n-npm-template-0-0-1-package-tgz.lock
+169 verbose tar unpack /home/nathan/.npm/utils/0.0.1/package.tgz
+170 silly lockFile 24a2b8c6-l5-require-js-node-modules-utils tar:///var/www/html5/require.js/node_modules/utils
+171 verbose lock tar:///var/www/html5/require.js/node_modules/utils /home/nathan/.npm/24a2b8c6-l5-require-js-node-modules-utils.lock
+172 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+173 verbose lock tar:///home/nathan/.npm/utils/0.0.1/package.tgz /home/nathan/.npm/230c3ec0-than-npm-utils-0-0-1-package-tgz.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 verbose tar unpack /home/nathan/.npm/file_path/0.0.1/package.tgz
+177 silly lockFile d942cf72-equire-js-node-modules-file-path tar:///var/www/html5/require.js/node_modules/file_path
+178 verbose lock tar:///var/www/html5/require.js/node_modules/file_path /home/nathan/.npm/d942cf72-equire-js-node-modules-file-path.lock
+179 silly lockFile 05bc78b9--npm-file-path-0-0-1-package-tgz tar:///home/nathan/.npm/file_path/0.0.1/package.tgz
+180 verbose lock tar:///home/nathan/.npm/file_path/0.0.1/package.tgz /home/nathan/.npm/05bc78b9--npm-file-path-0-0-1-package-tgz.lock
+181 silly gunzTarPerm extractEntry
+182 silly gunzTarPerm modified mode [ '', 509, 493 ]
+183 silly gunzTarPerm extractEntry
+184 silly gunzTarPerm modified mode [ '', 509, 493 ]
+185 silly gunzTarPerm modes [ '755', '644' ]
+186 silly gunzTarPerm extractEntry .gitignore
+187 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+188 silly gunzTarPerm extractEntry .npmignore
+189 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+190 silly gunzTarPerm extractEntry Gruntfile.js
+191 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+192 silly gunzTarPerm extractEntry .gitignore
+193 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+194 silly gunzTarPerm extractEntry .npmignore
+195 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+196 silly gunzTarPerm extractEntry Gruntfile.js
+197 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+198 silly gunzTarPerm extractEntry
+199 silly gunzTarPerm modified mode [ '', 509, 493 ]
+200 silly gunzTarPerm extractEntry README.md
+201 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+202 silly gunzTarPerm extractEntry bower.json
+203 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+204 silly gunzTarPerm extractEntry README.md
+205 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+206 silly gunzTarPerm extractEntry bower.json
+207 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+208 silly gunzTarPerm extractEntry .gitignore
+209 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+210 silly gunzTarPerm extractEntry .npmignore
+211 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+212 silly gunzTarPerm extractEntry Gruntfile.js
+213 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+214 silly gunzTarPerm extractEntry package.json
+215 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+216 silly gunzTarPerm extractEntry src/
+217 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+218 silly gunzTarPerm extractEntry package.json
+219 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+220 silly gunzTarPerm extractEntry src/
+221 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+224 silly gunzTarPerm extractEntry bower.json
+225 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+226 silly gunzTarPerm extractEntry src/index.js
+227 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+228 silly gunzTarPerm extractEntry src/index.js
+229 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+230 silly gunzTarPerm extractEntry package.json
+231 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+232 silly gunzTarPerm extractEntry src/
+233 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+234 silly gunzTarPerm extractEntry src/file_path.js
+235 silly gunzTarPerm modified mode [ 'src/file_path.js', 436, 420 ]
+236 silly gunzTarPerm extractEntry src/file_path_windows.js
+237 silly gunzTarPerm modified mode [ 'src/file_path_windows.js', 436, 420 ]
+238 silly gunzTarPerm extractEntry src/index.js
+239 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+240 silly lockFile 62ea34e3-require-js-node-modules-template tar:///var/www/html5/require.js/node_modules/template
+241 silly lockFile 62ea34e3-require-js-node-modules-template tar:///var/www/html5/require.js/node_modules/template
+242 silly lockFile 4b0c2941-n-npm-template-0-0-1-package-tgz tar:///home/nathan/.npm/template/0.0.1/package.tgz
+243 silly lockFile 4b0c2941-n-npm-template-0-0-1-package-tgz tar:///home/nathan/.npm/template/0.0.1/package.tgz
+244 info preinstall template@0.0.1
+245 verbose readDependencies using package.json deps
+246 verbose readDependencies using package.json deps
+247 silly resolved []
+248 verbose about to build /var/www/html5/require.js/node_modules/template
+249 info build /var/www/html5/require.js/node_modules/template
+250 verbose linkStuff [ false, false, false, '/var/www/html5/require.js/node_modules' ]
+251 info linkStuff template@0.0.1
+252 verbose linkBins template@0.0.1
+253 verbose linkMans template@0.0.1
+254 verbose rebuildBundles template@0.0.1
+255 info install template@0.0.1
+256 info postinstall template@0.0.1
+257 silly lockFile 24a2b8c6-l5-require-js-node-modules-utils tar:///var/www/html5/require.js/node_modules/utils
+258 silly lockFile 24a2b8c6-l5-require-js-node-modules-utils tar:///var/www/html5/require.js/node_modules/utils
+259 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+260 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+261 info preinstall utils@0.0.1
+262 verbose readDependencies using package.json deps
+263 verbose readDependencies using package.json deps
+264 silly resolved []
+265 verbose about to build /var/www/html5/require.js/node_modules/utils
+266 info build /var/www/html5/require.js/node_modules/utils
+267 verbose linkStuff [ false, false, false, '/var/www/html5/require.js/node_modules' ]
+268 info linkStuff utils@0.0.1
+269 verbose linkBins utils@0.0.1
+270 verbose linkMans utils@0.0.1
+271 verbose rebuildBundles utils@0.0.1
+272 info install utils@0.0.1
+273 info postinstall utils@0.0.1
+274 silly lockFile d942cf72-equire-js-node-modules-file-path tar:///var/www/html5/require.js/node_modules/file_path
+275 silly lockFile d942cf72-equire-js-node-modules-file-path tar:///var/www/html5/require.js/node_modules/file_path
+276 silly lockFile 05bc78b9--npm-file-path-0-0-1-package-tgz tar:///home/nathan/.npm/file_path/0.0.1/package.tgz
+277 silly lockFile 05bc78b9--npm-file-path-0-0-1-package-tgz tar:///home/nathan/.npm/file_path/0.0.1/package.tgz
+278 info preinstall file_path@0.0.1
+279 verbose readDependencies using package.json deps
+280 verbose readDependencies using package.json deps
+281 verbose cache add [ 'path_utils@git+https://github.com/nathanfaucett/path_utils',
+281 verbose cache add   null ]
+282 verbose cache add name=undefined spec="path_utils@git+https://github.com/nathanfaucett/path_utils" args=["path_utils@git+https://github.com/nathanfaucett/path_utils",null]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: 'path_utils@git+https://github.com/nathanfaucett/path_utils',
+283 verbose parsed url   path: 'path_utils@git+https://github.com/nathanfaucett/path_utils',
+283 verbose parsed url   href: 'path_utils@git+https://github.com/nathanfaucett/path_utils' }
+284 verbose cache add [ 'utils@git+https://github.com/nathanfaucett/utils', null ]
+285 verbose cache add name=undefined spec="utils@git+https://github.com/nathanfaucett/utils" args=["utils@git+https://github.com/nathanfaucett/utils",null]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: 'utils@git+https://github.com/nathanfaucett/utils',
+286 verbose parsed url   path: 'utils@git+https://github.com/nathanfaucett/utils',
+286 verbose parsed url   href: 'utils@git+https://github.com/nathanfaucett/utils' }
+287 verbose cache add name="path_utils" spec="git+https://github.com/nathanfaucett/path_utils" args=["path_utils","git+https://github.com/nathanfaucett/path_utils"]
+288 verbose parsed url { protocol: 'git+https:',
+288 verbose parsed url   slashes: true,
+288 verbose parsed url   auth: null,
+288 verbose parsed url   host: 'github.com',
+288 verbose parsed url   port: null,
+288 verbose parsed url   hostname: 'github.com',
+288 verbose parsed url   hash: null,
+288 verbose parsed url   search: null,
+288 verbose parsed url   query: null,
+288 verbose parsed url   pathname: '/nathanfaucett/path_utils',
+288 verbose parsed url   path: '/nathanfaucett/path_utils',
+288 verbose parsed url   href: 'git+https://github.com/nathanfaucett/path_utils' }
+289 silly lockFile 9698c01a-hub-com-nathanfaucett-path-utils https://github.com/nathanfaucett/path_utils
+290 verbose lock https://github.com/nathanfaucett/path_utils /home/nathan/.npm/9698c01a-hub-com-nathanfaucett-path-utils.lock
+291 verbose cache add name="utils" spec="git+https://github.com/nathanfaucett/utils" args=["utils","git+https://github.com/nathanfaucett/utils"]
+292 verbose parsed url { protocol: 'git+https:',
+292 verbose parsed url   slashes: true,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: 'github.com',
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: 'github.com',
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '/nathanfaucett/utils',
+292 verbose parsed url   path: '/nathanfaucett/utils',
+292 verbose parsed url   href: 'git+https://github.com/nathanfaucett/utils' }
+293 silly lockFile 6d79233a-s-github-com-nathanfaucett-utils https://github.com/nathanfaucett/utils
+294 verbose lock https://github.com/nathanfaucett/utils /home/nathan/.npm/6d79233a-s-github-com-nathanfaucett-utils.lock
+295 verbose addRemoteGit [ 'https://github.com/nathanfaucett/path_utils', 'master' ]
+296 verbose addRemoteGit [ 'https://github.com/nathanfaucett/utils', 'master' ]
+297 verbose git remote.origin.url https://github.com/nathanfaucett/path_utils
+298 verbose git remote.origin.url https://github.com/nathanfaucett/utils
+299 verbose git fetch -a origin (https://github.com/nathanfaucett/path_utils)
+300 verbose git rev-list -n1 master 668a33e7b85b4d12b928c4c603e0cd5dc4ff19e7
+301 verbose resolved git url git+https://github.com/nathanfaucett/path_utils#668a33e7b85b4d12b928c4c603e0cd5dc4ff19e7
+302 verbose git fetch -a origin (https://github.com/nathanfaucett/utils)
+303 verbose tar unpack /tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz
+304 silly lockFile ba3e0999--7690890089143068-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz-unpack
+305 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz-unpack /home/nathan/.npm/ba3e0999--7690890089143068-tmp-tgz-unpack.lock
+306 silly lockFile 890a8aef-17877-0-7690890089143068-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz
+307 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz /home/nathan/.npm/890a8aef-17877-0-7690890089143068-tmp-tgz.lock
+308 silly gunzTarPerm modes [ '755', '644' ]
+309 verbose git rev-list -n1 master c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3
+310 verbose resolved git url git+https://github.com/nathanfaucett/utils#c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3
+311 silly gunzTarPerm extractEntry
+312 silly gunzTarPerm modified mode [ '', 509, 493 ]
+313 silly gunzTarPerm extractEntry .gitignore
+314 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+315 silly gunzTarPerm extractEntry .npmignore
+316 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+317 silly gunzTarPerm extractEntry Gruntfile.js
+318 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+319 silly gunzTarPerm extractEntry README.md
+320 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+321 silly gunzTarPerm extractEntry bower.json
+322 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+323 verbose tar unpack /tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz
+324 silly lockFile 11d70ca1--8213709786068648-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz-unpack
+325 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz-unpack /home/nathan/.npm/11d70ca1--8213709786068648-tmp-tgz-unpack.lock
+326 silly lockFile 6df8a82c-17895-0-8213709786068648-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz
+327 verbose lock tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz /home/nathan/.npm/6df8a82c-17895-0-8213709786068648-tmp-tgz.lock
+328 silly gunzTarPerm extractEntry package.json
+329 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+330 silly gunzTarPerm extractEntry src/
+331 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+332 silly gunzTarPerm modes [ '755', '644' ]
+333 silly gunzTarPerm extractEntry src/index.js
+334 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+335 silly gunzTarPerm extractEntry
+336 silly gunzTarPerm modified mode [ '', 509, 493 ]
+337 silly gunzTarPerm extractEntry .gitignore
+338 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+339 silly gunzTarPerm extractEntry .npmignore
+340 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+341 silly gunzTarPerm extractEntry Gruntfile.js
+342 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+343 silly gunzTarPerm extractEntry README.md
+344 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+345 silly gunzTarPerm extractEntry bower.json
+346 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+347 silly gunzTarPerm extractEntry package.json
+348 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+349 silly gunzTarPerm extractEntry src/
+350 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+351 silly gunzTarPerm extractEntry src/index.js
+352 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+353 silly lockFile ba3e0999--7690890089143068-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz-unpack
+354 silly lockFile ba3e0999--7690890089143068-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz-unpack
+355 silly lockFile 890a8aef-17877-0-7690890089143068-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz
+356 silly lockFile 890a8aef-17877-0-7690890089143068-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317877-0.7690890089143068/tmp.tgz
+357 silly lockFile 9698c01a-hub-com-nathanfaucett-path-utils https://github.com/nathanfaucett/path_utils
+358 silly lockFile 9698c01a-hub-com-nathanfaucett-path-utils https://github.com/nathanfaucett/path_utils
+359 silly lockFile 11d70ca1--8213709786068648-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz-unpack
+360 silly lockFile 11d70ca1--8213709786068648-tmp-tgz-unpack tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz-unpack
+361 silly lockFile 6df8a82c-17895-0-8213709786068648-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz
+362 silly lockFile 6df8a82c-17895-0-8213709786068648-tmp-tgz tar:///tmp/npm-5354-CwzWFRe3/1407341317895-0.8213709786068648/tmp.tgz
+363 silly lockFile 6d79233a-s-github-com-nathanfaucett-utils https://github.com/nathanfaucett/utils
+364 silly lockFile 6d79233a-s-github-com-nathanfaucett-utils https://github.com/nathanfaucett/utils
+365 silly resolved [ { name: 'path_utils',
+365 silly resolved     version: '0.0.1',
+365 silly resolved     description: 'path utils for the browser and node.js',
+365 silly resolved     repository:
+365 silly resolved      { type: 'git',
+365 silly resolved        url: 'https://github.com/nathanfaucett/path_utils.git' },
+365 silly resolved     main: 'src/index.js',
+365 silly resolved     keywords: [ 'path_utils', 'path_utils.js' ],
+365 silly resolved     author: { name: 'Nathan Faucett' },
+365 silly resolved     license: 'BSD-2-Clause',
+365 silly resolved     readmeFilename: 'README.md',
+365 silly resolved     devDependencies: { grunt: '', 'grunt-jsbeautifier': '' },
+365 silly resolved     readme: 'pathUtils\n=======\n\npath utils for the browser and node.js',
+365 silly resolved     bugs: { url: 'https://github.com/nathanfaucett/path_utils/issues' },
+365 silly resolved     homepage: 'https://github.com/nathanfaucett/path_utils',
+365 silly resolved     _id: 'path_utils@0.0.1',
+365 silly resolved     _shasum: '5727bceb842a8ea562b276f293eb5142e21acdf7',
+365 silly resolved     _resolved: 'git+https://github.com/nathanfaucett/path_utils#668a33e7b85b4d12b928c4c603e0cd5dc4ff19e7',
+365 silly resolved     _from: 'path_utils@git+https://github.com/nathanfaucett/path_utils' },
+365 silly resolved   { name: 'utils',
+365 silly resolved     version: '0.0.1',
+365 silly resolved     description: 'utils for the browser and node.js',
+365 silly resolved     repository:
+365 silly resolved      { type: 'git',
+365 silly resolved        url: 'https://github.com/nathanfaucett/utils.git' },
+365 silly resolved     main: 'src/index.js',
+365 silly resolved     keywords: [ 'utils', 'utils.js' ],
+365 silly resolved     author: { name: 'Nathan Faucett' },
+365 silly resolved     license: 'BSD-2-Clause',
+365 silly resolved     readmeFilename: 'README.md',
+365 silly resolved     devDependencies: { grunt: '', 'grunt-jsbeautifier': '' },
+365 silly resolved     readme: 'utils\n=======\n\nutils for the browser and node.js',
+365 silly resolved     bugs: { url: 'https://github.com/nathanfaucett/utils/issues' },
+365 silly resolved     homepage: 'https://github.com/nathanfaucett/utils',
+365 silly resolved     _id: 'utils@0.0.1',
+365 silly resolved     _shasum: 'f3ecb12df6615821ef98026fb71ed74d7c1ac67a',
+365 silly resolved     _resolved: 'git+https://github.com/nathanfaucett/utils#c7ae4d6c96dc4ac1a2d13cfb80d452c0dcd3e3b3',
+365 silly resolved     _from: 'utils@git+https://github.com/nathanfaucett/utils' } ]
+366 info install path_utils@0.0.1 into /var/www/html5/require.js/node_modules/file_path
+367 info install utils@0.0.1 into /var/www/html5/require.js/node_modules/file_path
+368 info installOne path_utils@0.0.1
+369 info installOne utils@0.0.1
+370 verbose node_modules/file_path/node_modules/utils unbuild
+371 verbose tar unpack /home/nathan/.npm/utils/0.0.1/package.tgz
+372 silly lockFile 7b09bc12-les-file-path-node-modules-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/utils
+373 verbose lock tar:///var/www/html5/require.js/node_modules/file_path/node_modules/utils /home/nathan/.npm/7b09bc12-les-file-path-node-modules-utils.lock
+374 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+375 verbose lock tar:///home/nathan/.npm/utils/0.0.1/package.tgz /home/nathan/.npm/230c3ec0-than-npm-utils-0-0-1-package-tgz.lock
+376 verbose node_modules/file_path/node_modules/path_utils unbuild
+377 silly gunzTarPerm modes [ '755', '644' ]
+378 verbose tar unpack /home/nathan/.npm/path_utils/0.0.1/package.tgz
+379 silly lockFile aefb5997-ile-path-node-modules-path-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/path_utils
+380 verbose lock tar:///var/www/html5/require.js/node_modules/file_path/node_modules/path_utils /home/nathan/.npm/aefb5997-ile-path-node-modules-path-utils.lock
+381 silly lockFile 967e5345-npm-path-utils-0-0-1-package-tgz tar:///home/nathan/.npm/path_utils/0.0.1/package.tgz
+382 verbose lock tar:///home/nathan/.npm/path_utils/0.0.1/package.tgz /home/nathan/.npm/967e5345-npm-path-utils-0-0-1-package-tgz.lock
+383 silly gunzTarPerm modes [ '755', '644' ]
+384 silly gunzTarPerm extractEntry
+385 silly gunzTarPerm modified mode [ '', 509, 493 ]
+386 silly gunzTarPerm extractEntry .gitignore
+387 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+388 silly gunzTarPerm extractEntry .npmignore
+389 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+390 silly gunzTarPerm extractEntry Gruntfile.js
+391 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+392 silly gunzTarPerm extractEntry
+393 silly gunzTarPerm modified mode [ '', 509, 493 ]
+394 silly gunzTarPerm extractEntry README.md
+395 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+396 silly gunzTarPerm extractEntry bower.json
+397 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+398 silly gunzTarPerm extractEntry .gitignore
+399 silly gunzTarPerm modified mode [ '.gitignore', 509, 493 ]
+400 silly gunzTarPerm extractEntry .npmignore
+401 silly gunzTarPerm modified mode [ '.npmignore', 509, 493 ]
+402 silly gunzTarPerm extractEntry Gruntfile.js
+403 silly gunzTarPerm modified mode [ 'Gruntfile.js', 509, 493 ]
+404 silly gunzTarPerm extractEntry README.md
+405 silly gunzTarPerm modified mode [ 'README.md', 509, 493 ]
+406 silly gunzTarPerm extractEntry bower.json
+407 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+408 silly gunzTarPerm extractEntry package.json
+409 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+410 silly gunzTarPerm extractEntry src/
+411 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm modified mode [ 'package.json', 509, 493 ]
+414 silly gunzTarPerm extractEntry src/
+415 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+416 silly gunzTarPerm extractEntry src/index.js
+417 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+418 silly gunzTarPerm extractEntry src/index.js
+419 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+420 silly lockFile aefb5997-ile-path-node-modules-path-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/path_utils
+421 silly lockFile aefb5997-ile-path-node-modules-path-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/path_utils
+422 silly lockFile 967e5345-npm-path-utils-0-0-1-package-tgz tar:///home/nathan/.npm/path_utils/0.0.1/package.tgz
+423 silly lockFile 967e5345-npm-path-utils-0-0-1-package-tgz tar:///home/nathan/.npm/path_utils/0.0.1/package.tgz
+424 info preinstall path_utils@0.0.1
+425 verbose readDependencies using package.json deps
+426 verbose readDependencies using package.json deps
+427 silly resolved []
+428 verbose about to build /var/www/html5/require.js/node_modules/file_path/node_modules/path_utils
+429 info build /var/www/html5/require.js/node_modules/file_path/node_modules/path_utils
+430 verbose linkStuff [ false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   '/var/www/html5/require.js/node_modules/file_path/node_modules' ]
+431 info linkStuff path_utils@0.0.1
+432 verbose linkBins path_utils@0.0.1
+433 verbose linkMans path_utils@0.0.1
+434 verbose rebuildBundles path_utils@0.0.1
+435 info install path_utils@0.0.1
+436 info postinstall path_utils@0.0.1
+437 silly lockFile 7b09bc12-les-file-path-node-modules-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/utils
+438 silly lockFile 7b09bc12-les-file-path-node-modules-utils tar:///var/www/html5/require.js/node_modules/file_path/node_modules/utils
+439 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+440 silly lockFile 230c3ec0-than-npm-utils-0-0-1-package-tgz tar:///home/nathan/.npm/utils/0.0.1/package.tgz
+441 info preinstall utils@0.0.1
+442 verbose readDependencies using package.json deps
+443 verbose readDependencies using package.json deps
+444 silly resolved []
+445 verbose about to build /var/www/html5/require.js/node_modules/file_path/node_modules/utils
+446 info build /var/www/html5/require.js/node_modules/file_path/node_modules/utils
+447 verbose linkStuff [ false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   '/var/www/html5/require.js/node_modules/file_path/node_modules' ]
+448 info linkStuff utils@0.0.1
+449 verbose linkBins utils@0.0.1
+450 verbose linkMans utils@0.0.1
+451 verbose rebuildBundles utils@0.0.1
+452 info install utils@0.0.1
+453 info postinstall utils@0.0.1
+454 verbose about to build /var/www/html5/require.js/node_modules/file_path
+455 info build /var/www/html5/require.js/node_modules/file_path
+456 verbose linkStuff [ false, false, false, '/var/www/html5/require.js/node_modules' ]
+457 info linkStuff file_path@0.0.1
+458 verbose linkBins file_path@0.0.1
+459 verbose linkMans file_path@0.0.1
+460 verbose rebuildBundles file_path@0.0.1
+461 verbose rebuildBundles [ 'path_utils', 'utils' ]
+462 info install file_path@0.0.1
+463 info postinstall file_path@0.0.1
+464 info build /var/www/html5/require.js
+465 verbose linkStuff [ false, false, false, '/var/www/html5' ]
+466 info linkStuff require.js@0.2.5
+467 verbose linkBins require.js@0.2.5
+468 verbose linkMans require.js@0.2.5
+469 verbose rebuildBundles require.js@0.2.5
+470 verbose rebuildBundles [ '.bin',
+470 verbose rebuildBundles   'file_path',
+470 verbose rebuildBundles   'grunt',
+470 verbose rebuildBundles   'grunt-contrib-uglify',
+470 verbose rebuildBundles   'grunt-contrib-watch',
+470 verbose rebuildBundles   'grunt-jsbeautifier',
+470 verbose rebuildBundles   'grunt-require.js',
+470 verbose rebuildBundles   'template',
+470 verbose rebuildBundles   'utils' ]
+471 verbose rebuild bundle /var/www/html5/require.js/node_modules/grunt-require.js
+472 info build /var/www/html5/require.js/node_modules/grunt-require.js
+473 info preinstall grunt-require.js@0.1.8
+474 verbose linkStuff [ false, false, false, '/var/www/html5/require.js/node_modules' ]
+475 info linkStuff grunt-require.js@0.1.8
+476 verbose linkBins grunt-require.js@0.1.8
+477 verbose linkMans grunt-require.js@0.1.8
+478 verbose rebuildBundles grunt-require.js@0.1.8
+479 verbose rebuildBundles [ '.bin', 'require.js' ]
+480 info install grunt-require.js@0.1.8
+481 info postinstall grunt-require.js@0.1.8
+482 info install require.js@0.2.5
+483 info postinstall require.js@0.2.5
+484 info prepublish require.js@0.2.5
+485 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+486 error System Linux 3.5.0-18-generic
+487 error command "node" "/usr/local/bin/npm" "install"
+488 error cwd /var/www/html5/require.js
+489 error node -v v0.11.14-pre
+490 error npm -v 1.4.23
+491 error code EPEERINVALID
+492 verbose exit [ 1, true ]

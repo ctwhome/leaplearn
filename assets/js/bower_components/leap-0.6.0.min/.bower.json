@@ -1,0 +1,15 @@
+{
+  "name": "leap-0.6.0.min",
+  "_cacheHeaders": {
+    "ETag": "\"15ba2a59a0abf87d01188df36b0630fe\"",
+    "Last-Modified": "Wed, 14 May 2014 18:53:42 GMT",
+    "Content-Length": "78642",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:15ba2a59a",
+  "main": "index.js",
+  "_source": "http://js.leapmotion.com/leap-0.6.0.min.js",
+  "_target": "*",
+  "_originalSource": "http://js.leapmotion.com/leap-0.6.0.min.js",
+  "_direct": true
+}

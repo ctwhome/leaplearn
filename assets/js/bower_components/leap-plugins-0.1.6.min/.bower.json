@@ -1,0 +1,15 @@
+{
+  "name": "leap-plugins-0.1.6.min",
+  "_cacheHeaders": {
+    "ETag": "\"01a5fe77a076066b425b1ca1fcad9a4d\"",
+    "Last-Modified": "Wed, 14 May 2014 20:18:18 GMT",
+    "Content-Length": "43182",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:01a5fe77a",
+  "main": "index.js",
+  "_source": "http://js.leapmotion.com/leap-plugins-0.1.6.min.js",
+  "_target": "*",
+  "_originalSource": "http://js.leapmotion.com/leap-plugins-0.1.6.min.js",
+  "_direct": true
+}
