@@ -10,28 +10,20 @@
  * Styles css
  * ---------------------
  */
-require.config({
-//	urlArgs: 'v=' + (new Date()).getTime(),
+requirejs.config({
     baseUrl: 'assets/js/',
     paths: {
-        jquery                  : 'lib/jquery-1.10.2/jquery-1.10.2.min',
+        jquery                  : 'bower_components/jquery/dist/jquery.min',
 
         <!--LEAP MOTION -->
         leapMotion              : 'bower_components/leap-0.6.0.min/index',
         leapPlugins             : 'bower_components/leap-plugins-0.1.6.min/index',
         leapRiggedHands         : 'bower_components/leap.rigged-hand-0.1.4.min/index',
-        threeJs                 : 'bower_components/threejs/build/three.min',
-
-        templates               : '../templates'
+        threeJs                 : 'bower_components/threejs/build/three.min'
     },
     shim: {
         jquery: {
             exports: '$'
         }
     }
-});
-
-require([
-], function() {
-
 });

@@ -7,11 +7,12 @@
     <meta name="author" content="Jesus Garcia Gonzalez - www.ctwhome.com">
     <meta name="description" content="Project - Final master job by Jesús García">
 
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no"/>
-
     <link rel="stylesheet" href="assets/css/style.css">
-    <script data-main="assets/js/main.js" src="assets/js/bower_components/require/build/require.min.js"></script>
+    <script src="assets/js/bower_components/require/build/require.min.js"></script>
+    <script>
+        require(['./assets/js/main.js'], function (common) { require(['app/Index']); });
+    </script>
+
 </head>
 <body id="app">
 
@@ -37,12 +38,12 @@
                             Jesús García - Universidad Carlos III de Madrid
                         </p>
                         <p>
-                            <a href="pages/home.html" class="btn btn-lg btn-primary">
+                            <a data-button="home" href="home.html" class="btn btn-lg btn-primary">
                                 <span class="glyphicon glyphicon-hand-up"></span>
                                 Entrar
                             </a>
 
-                            <a href="#" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-info-sign"></span> Ayuda</a>
+                            <a data-button="help" href="#" class="btn btn-lg btn-default" onclick="changePages(event)"><span class="glyphicon glyphicon-info-sign"></span> Ayuda</a>
                         </p>
                     </div>
                 </div>
@@ -51,7 +52,9 @@
 
         <div id="help" class="container hide">
             <div class="transparent-background"></div>
-            <a href="#" class="btn btn-primary btn-default back"><span class="glyphicon glyphicon-chevron-left"></span> Atrás</a>
+
+            <a href="#" class="btn btn-primary btn-default back" onclick="changePages(event)"><span class="glyphicon glyphicon-chevron-left"></span> Atrás</a>
+
             <div class="row clearfix">
                 <div class="col-md-12 column help-container">
                     <div class="row">
