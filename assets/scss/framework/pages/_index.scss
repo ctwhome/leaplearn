@@ -1,5 +1,7 @@
-.index-page{
 
+.index-page{
+    background-color: red;
+    color: red;
 }
 #stage{
     background-color: rgba(250, 235, 200, 0);
@@ -7,5 +9,6 @@
     position: fixed;
     top: 0; left: 0;
     pointer-events: none;
-}
+    cursor: pointer;
 
+}
