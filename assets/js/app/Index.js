@@ -10,4 +10,4 @@ function changePages(e){
         document.getElementById('help').classList.add('hide');
         document.getElementById('index').classList.remove('hide');
     }
-}asdf
+}

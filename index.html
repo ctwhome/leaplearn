@@ -13,16 +13,25 @@
         require(['./assets/js/main.js'], function (common) { require(['app/Index']); });
     </script>
 
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r66/three.js"></script>
+    <script src="//js.leapmotion.com/leap-0.6.2.min.js"></script>
+    <script src="//js.leapmotion.com/leap-plugins-0.1.6.1.js"></script>
+    <script src="//js.leapmotion.com/leap.rigged-hand-0.1.3.min.js"></script>
+
+
+
 </head>
-<body id="app">
+<body class="index-page">
+
 
     <!--Main content-->
     <section>
         <!--Background-->
-        <video autoplay="" loop="" poster="" id="bgvid">
-            <source src="/assets/img/video/leapvideo.webm" type="video/webm">
-            <source src="/assets/img/video/leapvideo.mp4" type="video/mp4">
-        </video>
+            <video autoplay="" loop="" poster="" id="bgvid">
+                <source src="/assets/img/video/leapvideo.webm" type="video/webm">
+                <source src="/assets/img/video/leapvideo.mp4" type="video/mp4">
+            </video>
 
         <div id="index" class="container">
             <div class="row clearfix">
@@ -37,6 +46,12 @@
                         <p>
                             Jesús García - Universidad Carlos III de Madrid
                         </p>
+
+
+
+
+
+
                         <p>
                             <a data-button="home" href="home.html" class="btn btn-lg btn-primary">
                                 <span class="glyphicon glyphicon-hand-up"></span>
@@ -49,6 +64,8 @@
                 </div>
             </div>
         </div>
+
+
 
         <div id="help" class="container hide">
             <div class="transparent-background"></div>
@@ -112,6 +129,38 @@
         </div>
 
     </section>
+
+
+
+
+
+    <!-- GRABACIÓN-->
+    <!--<script src="assets/js/leap.playback-0.2.1.js"></script>-->
+
+    <!--<p>Zone: <span id="zone"></span></p>-->
+    <!--<script>-->
+        <!--var zoneDisplay = document.getElementById("zone");-->
+
+        <!--var controller = new Leap.Controller();-->
+        <!--controller.on('frame', function(frame){-->
+            <!--if(frame.pointables.length > 0)-->
+            <!--{-->
+                <!--var touchZone = frame.pointables[0].touchZone;-->
+                <!--zoneDisplay.innerText = touchZone;-->
+            <!--}-->
+        <!--});-->
+        <!--controller.connect();-->
+    <!--</script>-->
+
+
+
+    <div id="stage"></div>
+
+
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.5.4.min.js"></script>
+    <script src="assets/js/touch.js"></script>
+
+
 
 </body>
 </html>
