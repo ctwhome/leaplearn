@@ -36,7 +36,9 @@
 
 <h1>HOME</h1>
 
+<div id="finger-data"></div>
 <div id="labels"></div>
+
 
 <script type="text/javascript" class="codepen">
 
@@ -67,6 +69,10 @@
 
             label.style.left = screenPosition.x + 'px';
             label.style.bottom = screenPosition.y + 'px';
+            this.finger(hand.dataType);
+        },
+        finger: function(hand){
+            alert(hand.type);
         }
     })
             .use('riggedHand')

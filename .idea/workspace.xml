@@ -2,15 +2,763 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd28c9d7-6ba3-4af6-969d-c6b3aaadca34" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e98b75b8dba9e39040f61cd3fb1fcfcdd94991f1/_components.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e98b75b8dba9e39040f61cd3fb1fcfcdd94991f1/_components.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_help.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_help.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/665c06a18c9622ea2698d9deed549cea98d8addd/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/665c06a18c9622ea2698d9deed549cea98d8addd/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_home.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1eb60282c612ec0bac3a226fae48140035669c40/_home.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/images/AngularJS-Shield-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/images/AngularJS-Shield-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/images/AngularJS-Shield-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/brown_papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/brown_papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/brown_papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/images/favicon-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/images/favicon-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/images/favicon-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/school_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/school_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/school_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/$1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/HandSplay-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/HandSplay-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/HandSplay-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/TrackballControls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/TrackballControls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/TrackballControls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/Waiting-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/Waiting-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/Waiting-110fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/test/libs/WebConsole.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/test/libs/WebConsole.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/angular-spinner.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/angular-spinner.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/angular-spinner.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/lib/angular.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/lib/angular.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/lib/angular.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/angular.rangeSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/angular.rangeSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/angular.rangeSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/angulartics-ga.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/angulartics-ga.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/angulartics-ga.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/angulartics.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/angulartics.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/angulartics.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-dune.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-dune.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-dune.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-dune.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-dune.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-dune.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-forest.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-forest.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-forest.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-forest.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-forest.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-forest.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-heath.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-heath.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-heath.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-heath.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-heath.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-heath.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-lakeside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-lakeside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-lakeside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-lakeside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-lakeside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-lakeside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-seaside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-seaside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-seaside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/atelier-seaside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/atelier-seaside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/atelier-seaside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/brian.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/brian.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/brian.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/brown_paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/brown_paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/brown_paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-37fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-37fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-37fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-74fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-74fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-74fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-demo-eighth-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-demo-eighth-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-demo-eighth-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-demo-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-demo-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-demo-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-demo-quarter-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-demo-quarter-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-demo-quarter-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence-demo.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence-demo.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence-demo.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence2-49fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence2-49fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence2-49fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/confidence2.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/confidence2.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/confidence2.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/controls.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/controls.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/controls.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/controls.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/controls.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/controls.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/controls.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/controls.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/controls.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/controls.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/controls.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/data-collection.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/data-collection.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/data-collection.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/data-collection.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/data-collection.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/data-collection.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/data-collection.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/data-collection.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/data-collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/data-collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/data-collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/data-collection.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/data-collection.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/data-collection.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/example.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/flapping.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/flapping.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/flapping.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/grab.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/test/recordings/grab.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/grab.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/test/recordings/grab.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/grab.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/gruntfile.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/gruntfile.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/gun.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/gun.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/gun.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/ir_black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/ir_black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/ir_black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/jquery-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/jquery-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/jquery-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/leap-0.6.0-beta2-master.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/leap-0.6.0-beta2-master.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/leap-0.6.0-beta2-master.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/build/leap.playback-0.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/build/leap.playback-0.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/build/leap.playback-0.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/build/leap.playback-0.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/src/lib/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/src/lib/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/main.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/main.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/stylesheets/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/stylesheets/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/stylesheets/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/metadata.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/metadata.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/metadata.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/test/mocha.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/test/mocha.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/mono-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/mono-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/mono-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/monokai_sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/monokai_sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/monokai_sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/obsidian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/obsidian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/obsidian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/paraiso.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/paraiso.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/paraiso.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/paraiso.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/paraiso.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/paraiso.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/src/lib/performance-polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/src/lib/performance-polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/pinch-57fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/pinch-57fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/pinch-57fps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/pinch-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/pinch-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/pinch-half-res.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/pinch.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/test/recordings/pinch.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/pinch.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/test/recordings/pinch.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/pinch.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/src/player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/src/player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/railscasts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/railscasts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/railscasts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/recorder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/recorder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/recorder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/recorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/recorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/recorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/src/recording.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/src/recording.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/rollAndPitchCropped.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/rollAndPitchCropped.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/rollAndPitchCropped.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/rollAndPitchWithEntry.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/rollAndPitchWithEntry.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/rollAndPitchWithEntry.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/school_book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/school_book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/school_book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/solarized_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/solarized_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/solarized_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/solarized_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/solarized_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/solarized_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/test-paddle-rightwards.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/test-paddle-rightwards.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/test-paddle-rightwards.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/three-claps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/three-claps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/three-claps.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/javascripts/lib/three.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/javascripts/lib/three.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/javascripts/lib/three.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/waiting-short.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/waiting-short.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/waiting-short.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/recordings/wave.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/recordings/wave.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/recordings/wave.json.lz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/dist/css/xeditable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/dist/css/xeditable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/dist/css/xeditable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/dist/js/xeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/dist/js/xeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/dist/js/xeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/angular-xeditable/dist/js/xeditable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/angular-xeditable/dist/js/xeditable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/angular-xeditable/dist/js/xeditable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/recorder/bower_components/highlightjs/styles/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbackBORRARlib/recorder/bower_components/highlightjs/styles/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recorder/bower_components/highlightjs/styles/zenburn.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/leap.playback-0.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/backbone-0.9.10/backbone-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/backbone-0.9.10/backbone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/d3-layout/d3.layout.cloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/d3/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/d3/d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/handlebrars-1.0.0-rc.3/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/handlebrars-1.0.0-rc.3/handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/headjs-0.99/head.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/headjs-0.99/head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-2.3.5/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/highcharts-3/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/BUILD/BUILD.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/assets/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/assets/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/assets/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/assets/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/hello-world/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/multi-page/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/multi-page/second.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/example/programmatic/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/introjs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/minified/intro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/minified/introjs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/intro.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jqcloud/jqcloud-1.0.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jqcloud/jqcloud-1.0.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jqcloud/jqcloud.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-1.10.2/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-1.9.1/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-1.9.1/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-ba-serializeobject-0.2/jquery.ba-serializeobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-ba-serializeobject-0.2/jquery.ba-serializeobject.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-gritter-1.7.4-custom/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-gritter-1.7.4-custom/jquery.gritter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-gritter-1.7.4-custom/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-jscrollpane-2.0.0beta12/jquery.jscrollpane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-jscrollpane-2.0.0beta12/jquery.jscrollpane.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-mousewheel-3.1.3/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-mousewheel-3.1.3/jquery.mousewheel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-selectboxit-3.2.0/jquery.selectBoxIt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-selectboxit-3.2.0/jquery.selectBoxIt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-selectboxit-3.8.1/jquery.selectBoxIt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-selectboxit-3.8.1/jquery.selectBoxIt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/jquery.timezone-picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/jquery.timezone-picker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/bounding_boxes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/hover_regions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/africa-algiers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/africa-casablanca.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/africa-mbabane.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/africa-windhoek.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-adak.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-araguaina.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-asuncion.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-belize.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-caracas.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-chicago.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-coral-harbour.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-cuiaba.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-godthab.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-havana.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-inuvik.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-juneau.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-mazatlan.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-mexico-city.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-miquelon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-montevideo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-nipigon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-noronha.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-phoenix.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-santa-isabel.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-santiago.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-sao-paulo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-scoresbysund.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-st-johns.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-st-lucia.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/america-vancouver.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/antarctica-macquarie.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-amman.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-baku.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-beirut.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-colombo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-damascus.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-dhaka.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-ho-chi-minh.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-jerusalem.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-kabul.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-kashgar.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-kathmandu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-kuwait.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-rangoon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-tashkent.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-tehran.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-tokyo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/asia-yerevan.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/atlantic-bermuda.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/atlantic-canary.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/atlantic-cape-verde.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/atlantic-stanley.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-broken-hill.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-darwin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-eucla.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-lindeman.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-lord-howe.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/australia-melbourne.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/europe-riga.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/europe-skopje.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/indian-mauritius.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-apia.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-auckland.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-chatham.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-easter.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-enderbury.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-fakaofo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-fiji.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-gambier.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-kiritimati.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-marquesas.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-norfolk.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-pago-pago.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-pitcairn.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-timezone-picker/tz_json/polygons/pacific-wallis.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-ui-1.10.4.custom/jquery-ui-1.10.4.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jquery-ui-1.10.4.custom/jquery-ui-1.10.4.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jscrollpane-1.2/README.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jscrollpane-1.2/jquery.jscrollpane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jscrollpane-1.2/jquery.jscrollpane.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jscrollpane-1.2/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/jscrollpane-1.2/mwheelIntent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/examples/php-example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/src/jquery.tokeninput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/styles/token-input-facebook.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/styles/token-input-mac.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/loopj-jquery-tokeninput-201d2d1/styles/token-input.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/numeraljs-1.4.8/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/numeraljs-1.4.8/numeral.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/numeraljs-1.4.8/numeral.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/requestanimationframe/requestanimationframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/requestanimationframe/requestanimationframe.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/require-2.1.5/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/require-2.1.5/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/require-async/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/require-text-2.0.5/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/lib/jquery-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.3.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.3.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.13.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.4.9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.5.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.5.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.5.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.6.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.6.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.6.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.7.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.7.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.8.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.8.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.9.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/pkg/twitter-text-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/test/conformance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/test/node_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/test/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/twitter-text-js/twitter-text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/underscore-1.4.4/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lib/underscore-1.4.4/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/framework/pages/_help.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/framework/pages/_index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/modules/_components.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/modules/_dashboard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/modules/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/vendor/animate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/vendor/bootstrap/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/vendor/normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/vendor/simplegrid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/modules/_dashboard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/modules/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/animate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/bootstrap/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/simplegrid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/CONTRIBUTORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/proximity-alert/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/proximity-alert/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/proximity-alert/leap.proximity-alert.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/proximity-alert/leap.proximity-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/screen-position/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/screen-position/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/screen-position/leap.screen-position.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v1/screen-position/leap.screen-position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/javascript/interface.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/javascript/interface.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/javascript/scene.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/javascript/scene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/3d-positioning/pinch-and-move-57fps.json.lz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/bone-hand/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/bone-hand/scroll-and-swipe-100fps.json.lz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/confidence/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/confidence/confidence-bones-53fps.json.lz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/confidence/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/art1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/lib/ConnectedHand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/lib/RainbowHand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/lib/leap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/lib/stats.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/connected-fingers/lib/three.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/css/Main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/images/cursor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/images/window.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/javascript/InputEngine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/javascript/PalmController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/javascript/UiEngine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/javascript/Vector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/desktop-windows/resources/javascript/codepen_pinch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/images/dip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/images/leap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/images/mcp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/images/palm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/images/pip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-labels/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-spheres/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-spheres/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-spheres/lib/stats.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/finger-spheres/lib/three.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/grab-strength/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/grab-strength/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/hello-leap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/left-right/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/left-right/left-or-right-77fps.json.lz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-selection/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-selection/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-selection/lib/stats.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-selection/lib/three.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-strength/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/javascript-master/v2/pinch-strength/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/leap_map_sample.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/sample.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/sass/framework/pages/_home.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app/Index.js" afterPath="$PROJECT_DIR$/assets/js/app/Index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css.map" afterPath="$PROJECT_DIR$/assets/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/style.scss" afterPath="$PROJECT_DIR$/assets/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/touch.js" afterPath="$PROJECT_DIR$/assets/js/touch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leaplearn.iws" />
@@ -33,126 +781,51 @@
     <favorites_list name="leaplearn" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4277311">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="sources.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/sources.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
-                  <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="765">
-                  <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1700">
-                  <caret line="31" column="77" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="77" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Home.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/app/Home.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
-                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="touch.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/touch.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1309">
-                  <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.692307" vertical-offset="17" max-vertical-offset="2873">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6429366" vertical-offset="0" max-vertical-offset="899">
-                  <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="recording.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/recording.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="170" max-vertical-offset="272">
-                  <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
-                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Index.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/app/Index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
-                  <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23636363" vertical-offset="0" max-vertical-offset="935">
-                  <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2516">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="$1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recorder/$1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2770" max-vertical-offset="6035">
+              <caret line="179" column="5" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.0" vertical-offset="893" max-vertical-offset="1802">
+              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07488987" vertical-offset="0" max-vertical-offset="908">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -165,7 +838,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/recording.html" />
         <option value="$PROJECT_DIR$/assets/sass/modules/_components.scss" />
         <option value="$PROJECT_DIR$/assets/sass/framework/pages/_index.scss" />
@@ -173,20 +845,32 @@
         <option value="$PROJECT_DIR$/assets/js/sources.js" />
         <option value="$PROJECT_DIR$/pages/home.html" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/assets/js/app/Home.js" />
-        <option value="$PROJECT_DIR$/assets/js/app/Index.js" />
         <option value="$PROJECT_DIR$/assets/sass/framework/touch.js" />
-        <option value="$PROJECT_DIR$/assets/js/touch.js" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/samples/sample.html" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/framework/_main.scss" />
+        <option value="$PROJECT_DIR$/assets/js/app/Index.js" />
+        <option value="$PROJECT_DIR$/assets/js/touch.js" />
         <option value="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" />
+        <option value="$PROJECT_DIR$/record/index.html" />
+        <option value="$PROJECT_DIR$/record/recorder/index.html" />
+        <option value="$PROJECT_DIR$/home/scroll.html" />
+        <option value="$PROJECT_DIR$/recorder/recordings/example.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/recorder/$1.js" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <exe-path>/usr/local/bin/bower</exe-path>
+    <config-path />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1919" />
+    <option name="x" value="-1920" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1058" />
@@ -245,287 +929,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaplearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
+              <option name="myItemId" value="recorder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,49 +940,102 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file:///Users/ctw/Sites/github/leaplearn/assets/sass/style.scss" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/help.html" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/js/app" />
       <recent name="$PROJECT_DIR$/assets/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/scss/framework/pages" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://leaplearn.local/index.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+  <component name="RunManager" selected="JavaScript Debug.Leap Learn">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="/usr/local/bin/node" />
+      <envs />
+      <setting name="passParentEnvVars" value="true" />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTraceType" factoryName="Spy-js" node="" config="" has-config="false" system-proxy="true" proxy-port="3546">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" editBeforeRun="true" engineId="4805823f-ab93-4b39-a595-10b73dec71cb" uri="http://localhost:63343/leaplearn/index.html">
       <method>
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_leaplearn javascript" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_leaplearn javascript" />
       </method>
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="Node-webkit">
+      <option name="name" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>BDD</ui>
+      <extra-mocha-options />
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Leap Learn" type="JavascriptDebugType" factoryName="JavaScript Debug" editBeforeRun="true" engineId="4805823f-ab93-4b39-a595-10b73dec71cb" uri="http://leaplearn.local">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method>
+        <option name="ToolBeforeRunTask" enabled="false" actionId="Tool_External Tools_leaplearn javascript" />
+      </method>
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Leap Learn" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -593,27 +1050,46 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1919" y="22" width="1920" height="1058" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1920" y="22" width="1920" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -637,11 +1113,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/recording.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sources.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1700">
           <caret line="31" column="77" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1309">
           <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,15 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="697">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="765">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="778" max-vertical-offset="1700">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3111">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,35 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="765">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recording.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/framework/pages/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/modules/_components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,22 +1286,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="612">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6614786" vertical-offset="0" max-vertical-offset="771">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -857,132 +1300,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15920916" vertical-offset="0" max-vertical-offset="961">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1613924" vertical-offset="0" max-vertical-offset="948">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state vertical-scroll-proportion="0.24765868" vertical-offset="0" max-vertical-offset="961">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/framework/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10932476" vertical-offset="0" max-vertical-offset="933">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sources.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state vertical-scroll-proportion="0.12382934" vertical-offset="0" max-vertical-offset="961">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/lead-map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5347071" vertical-offset="0" max-vertical-offset="3485">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbackBORRARlib/test/libs/WebConsole.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24765868" vertical-offset="0" max-vertical-offset="2006">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbackBORRARlib/src/lib/lz-string-1.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15920916" vertical-offset="0" max-vertical-offset="11271">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="935">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recording.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="935">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/touch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2830385" vertical-offset="425" max-vertical-offset="3332">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4909091" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbackBORRARlib/test/mocha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3090909" vertical-offset="51" max-vertical-offset="986">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/src/lib/lz-string-1.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26534858" vertical-offset="0" max-vertical-offset="11271">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12906724" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recorder/recordings/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="264945">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2516">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recorder/$1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2770" max-vertical-offset="6035">
+          <caret line="179" column="5" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1700">
-          <caret line="31" column="77" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="77" />
+        <state vertical-scroll-proportion="-16.0" vertical-offset="893" max-vertical-offset="1802">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app/Index.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.07488987" vertical-offset="0" max-vertical-offset="908">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recording.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/touch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32484075" vertical-offset="0" max-vertical-offset="785">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/modules/_components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2982456" vertical-offset="0" max-vertical-offset="912">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/framework/pages/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24232456" vertical-offset="0" max-vertical-offset="912">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/framework/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/framework/pages/_help.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="765">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="17" max-vertical-offset="2873">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6429366" vertical-offset="0" max-vertical-offset="899">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23636363" vertical-offset="0" max-vertical-offset="935">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
