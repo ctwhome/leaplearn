@@ -1,56 +1,64 @@
-<html class="home">
+<html>
 <head>
 
+    <link rel="stylesheet" href="assets/css/style.css"/>
 
-    <!-- Needs to present the Hands in 3D-->
-    <script src="home/recorder/javascripts/lib/three.min.js"></script>
-    <script src="//js.leapmotion.com/leap-0.6.0.js"></script>
-    <script src="//js.leapmotion.com/leap-plugins-0.1.6.js"></script>
-    <script src="//js.leapmotion.com/leap.rigged-hand-0.1.4.js"></script>
+
 
 
     <!-- override the bundled playback plugin: -->
     <!--<script src="build/leap.playback-0.2.1.js"></script>-->
 
-    <style>
-        body {
-            font-family: Helvetica;
-        }
-
-        /* Space for the hands  */
-        canvas {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-        }
-
-
-        /* FIXME FOR WHAT IS THIS????*/
-        #debugger {
-            top: 0;
-            left: 0;
-            position: fixed;
-            background: black;
-            color: #eee;
-            padding: 4px;
-            display: none;
-        }
-    </style>
-
 </head>
-<body>
+<body class="home-page">
+
+
 
 <div id="debugger" style="display: none"></div>
+
 <img src="assets/img/leaplearn_uc3m.jpg" width="400" alt=""/>
-<img src="assets/img/leaplearn_uc3m.jpg" width="400" alt=""/>
+<img class="img-detect" src="assets/img/detect.gif" width="400" alt=""/>
 
-<div id="output"> output</div>
+<p class="dev">Debug for one finger:</p>
+<p>
+    Finger name: <span id="finger-name">…</span><br/>
+    Tip position: <span id="finger-position">…</span><br/>
+    Tip position (non stable): <span id="tip-position">…</span><br/>
+    Finger distance: <span id="finger-distance">…</span><br/>
+    Gesture zone: <span id="touch-zone">…</span>
+</p>
+
+
+<p>Normalized Position: <span id="normPosition">…</span></p>
+<p>Tip Position: <span id="tipPosition">…</span></p>
+
+
+<p>Gesture count: <span id="gestures">Gesture count</span></p>
+
+
+<div id="notification-square">
+    <div class="text-notification"></div>
+    <div class="ball"></div>
+</div>
 
 
 
-<script src="src/js/home.js"></script>
+<div id="output">Output</div>
+
+
+
+
+<!-- Needs to present the Hands in 3D-->
+<script src="assets/js/lib/three.min.js"></script>
+<script src="assets/js/lib/leapmotion/leap-0.6.0.js"></script>
+<script src="assets/js/lib/leapmotion/leap-plugins-0.1.6.js"></script>
+<script src="assets/js/lib/leapmotion/leap.rigged-hand-0.1.4.js"></script>
+<script src="assets/js/bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="assets/js/home.js"></script>
+<script src="assets/js/paint.js"></script>
+
+
 
 </body>
 </html>

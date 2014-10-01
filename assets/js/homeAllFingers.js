@@ -60,9 +60,6 @@ Leap.loop(options, function(frame) {
 
 
     // TABLE INFO
-
-
-
     fpsDisplay.innerText = frame.currentFrameRate;
     handCountDisplay.innerText = frame.hands.length;
     pointableCountDisplay.innerText = frame.pointables.length;
@@ -70,7 +67,6 @@ Leap.loop(options, function(frame) {
     toolCountDisplay.innerText = frame.tools.length;
     gestureCountDisplay.innerText = frame.gestures.length;
      // Show image
-
 
 
     frameString = concatData("frame_id", frame.id);
