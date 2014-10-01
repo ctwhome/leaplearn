@@ -1,3 +1,21 @@
+/**
+ * LeapLearn. by Jesus García
+ * ----------------------------------------------------------------
+ * Copyright (c) 2014 Universidad Carlos III de Madrid
+ *
+ * @link http://www.ctwhome.com/leaplearn
+ * @copyright 2014 Jesus García
+ * @date 11/09/14, 10:44.
+ *
+ * touch.js
+ * ---------------------
+ * Main page touchs
+ */
+
+var link_playrecorder = "home.html";
+
+
+
 $( document ).ready(function() {
 
     /**
@@ -130,7 +148,8 @@ $( document ).ready(function() {
 
 
     /**
-     * Detect button
+     * Click button
+     *
      * @param posX
      * @param posY
      */
@@ -141,9 +160,8 @@ $( document ).ready(function() {
 
         );
 
-
         if (between(posX, entranceButton.left, entranceButton.right) && between(posY, entranceButton.top, entranceButton.bottom)) {
-            window.location.href = "home.html";
+            window.location.href = link_playrecorder;
         }
 
         if (between(posX, helpButton.left, helpButton.right) && between(posY, helpButton.top, helpButton.bottom)) {
@@ -155,8 +173,6 @@ $( document ).ready(function() {
             $('.help-content').addClass('hide');
             $('.index-content').removeClass('hide');
         }
-
-
     }
 
 
