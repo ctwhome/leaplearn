@@ -20,6 +20,7 @@
 const FRAMES_OLGURA = 25;
 var hand, finger, indexFinger,
     gesture = [];
+    userGestures = [];
     gestureList = getListOfGesture();
 
 
@@ -55,14 +56,14 @@ var options = {
  */
 Leap.loop(options, function(frame) {
 
-    // Hand in
+    // Hand in the system
     if (frame.pointables.length > 0) {
         // POINTABLE ZONE
         zoneDisplay.innerText = frame.pointables[0].touchZone;
         //Hide info
         $(".img-detect").addClass("hide")
     }
-    // Hand out
+    // Hand out of the system
     else {
         //Hide img of detection
         $(".img-detect").removeClass("hide")
@@ -149,7 +150,20 @@ function matchGesture(){
 
 }
 
+/**
+ * Get list of gestures
+ * @returns {Array}
+ */
 function getListOfGesture(){
     var gestureList = [];
     return gestureList;
+}
+
+/**
+ * Save Gesture created in LocalStorage
+ */
+function saveGesure(gesture){
+    //last gesture push
+    userGestures.push(gesture)
+    localStorage.setItem('userGestures', JSON.stringify(userGestures))
 }
