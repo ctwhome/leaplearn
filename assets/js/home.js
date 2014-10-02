@@ -16,15 +16,24 @@
 /**
  * Variable definitions
  */
-var frameString = "", handString = "", fingerString = "";
-var hand, finger, indexFinger;
+
+const FRAMES_OLGURA = 25;
+var hand, finger, indexFinger,
+    gesture = [];
+    gestureList = getListOfGesture();
+
+
+// counter to detect the gesture in the touch zone
+var touchZone = false,
+    gestureCounter = 0;
 
 // POINTABLE ZONE
 var fingerName      = document.getElementById("finger-name");
     fingerPosition  = document.getElementById("finger-position"),
     fingerTipPosition     = document.getElementById("tip-position"),
     fingerDistance  = document.getElementById("finger-distance"),
-    zoneDisplay     = document.getElementById("touch-zone");
+    zoneDisplay     = document.getElementById("touch-zone"),
+    gestureMade     = document.getElementById("gesture-made");
 
 var ballDistance    = $('#notification-square .ball'),
     textBox         = $('#notification-square .text-notification'),
@@ -39,11 +48,6 @@ var options = {
     enableGestures: false,
     frameEventName: "animationFrame"
 };
-
-
-// Screen position
-    window.cursor = $('#cursor');
-    window.output = $('#output');
 
 
 /**
@@ -70,7 +74,7 @@ Leap.loop(options, function(frame) {
      */
     for (var i = 0, len = frame.hands.length; i < len; i++) {
         hand = frame.hands[i];
-        indexFinger = hand.fingers[1];                                          // Index finger
+        indexFinger = hand.fingers[1];                                         // Index finger
 
 //      fingerDistance.innerText = indexFinger.touchDistance;
         fingerName.innerText = indexFinger.toString();                         // Distal stablish
@@ -80,62 +84,9 @@ Leap.loop(options, function(frame) {
             "\ny: "+indexFinger.stabilizedTipPosition[1] +
             "\nz: "+indexFinger.stabilizedTipPosition[2];
         fingerTipPosition.innerText = indexFinger.tipPosition;
-        //console.log("Console check: ", indexFinger);
-
-
-
-        // Normalize position
-        var pointable = frame.pointables[1];
-
-        var interactionBox = frame.interactionBox;
-        var normalizedPosition = interactionBox.normalizePoint(pointable.tipPosition, true);
-        var tipPosition = pointable.tipPosition;
-        normalizedDisplay.innerText =
-            "\nx: " + normalizedPosition[0]
-            +", \ny: "+ normalizedPosition[1]
-            +", \nz: "+ normalizedPosition[2]
-            +"\n Normalize position to String: "+ interactionBox.toString();
-
-
-
-
-//
-//        /**
-//         * Screen Position
-//         */
-//        var screenPosition = hand.screenPosition(hand.palmPosition);
-//
-//        var outputContent = "x: " + (screenPosition[0].toPrecision(4)) + 'px' +
-//            "        <br/>y: " + (screenPosition[1].toPrecision(4)) + 'px' +
-//            "        <br/>z: " + (screenPosition[2].toPrecision(4)) + 'px';
-//        // hide and show the cursor in order to get second-topmost element.
-//        cursor.hide();
-//        var el = document.elementFromPoint(
-//            hand.screenPosition()[0],
-//            hand.screenPosition()[1]
-//        );
-//        cursor.show();
-//
-//        if (el){
-//            outputContent += '<br>Topmost element: '+ el.tagName + ' #' + el.id +  ' .' + el.className;
-//        }
-//
-//        output.html(outputContent);
-//
-//        cursor.css({
-//            left: screenPosition[0] + 'px',
-//            top:  screenPosition[1] + 'px'
-//        });
-//        // End Screen Position
-
 
         // Call to the graphic zone
-        barDistance(indexFinger.touchDistance);
-        //var screenPosition = hand.screenPosition(hand.palmPosition);
-        //barDistance(screenPosition[2].toPrecision(4));
-
-
-
+        barDistance(indexFinger.touchDistance, frame.id, indexFinger.stabilizedTipPosition);
 
     }
 })
@@ -145,19 +96,60 @@ Leap.loop(options, function(frame) {
         scale: 1
     })
 
+/**
+ * Bar distance graphic
+ * @param distance
+ */
+function barDistance(distance, frameid, screenshot) {
 
-function barDistance(distance){
+    ballDistance.css("left", (distance * 100) + 90);
 
-    ballDistance.css("left",(distance*100)+90);
+    // Enter tocuh zone
     if (distance < 0.4) {
+        touchZone = true;
+        gestureCounter = frameid;
         ballDistance.addClass();
         notification.addClass("gesture");
         textBox.html("Gesture Zone");
+
+        gesture.push(screenshot);
     }
+    // Exit zone Tocuh
     else {
-        notification.removeClass("gesture");
-        textBox.html("Normal Zone");
+        if (touchZone) {
+            if (frameid - gestureCounter > FRAMES_OLGURA) {
+                gestureCounter = 0;
+                touchZone = false;
+                notification.removeClass("gesture");
+                textBox.html("Normal Zone");
+
+               // Match gesture
+                matchGesture();
+                gesture = [];
+            }
+        }
     }
-    console.log("Console check: ", distance);
 }
 
+/**
+ * Algorithm of recognigser
+ * @param listOfGestures
+ * @param actualScreenshot
+ */
+function matchGesture(){
+
+    gestureMade.innerText = gesture;
+
+    // get the list of the gestures recorder
+
+
+    // Match actual screenshot with the gestures that we have
+
+    // keep the match.
+
+}
+
+function getListOfGesture(){
+    var gestureList = [];
+    return gestureList;
+}

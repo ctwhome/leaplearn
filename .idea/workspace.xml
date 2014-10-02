@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd28c9d7-6ba3-4af6-969d-c6b3aaadca34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/javascript-master.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/finger-labels/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/hello-leap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/finger-labels/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/extras/examples/finger-labels/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/framework/_main.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/_main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/home.js" afterPath="$PROJECT_DIR$/assets/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/homeAllFingers.js" afterPath="$PROJECT_DIR$/assets/js/homeAllFingers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/leaplearn.iml" afterPath="$PROJECT_DIR$/.idea/leaplearn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/paint.js" afterPath="$PROJECT_DIR$/assets/js/paint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css.map" afterPath="$PROJECT_DIR$/assets/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/style.scss" afterPath="$PROJECT_DIR$/assets/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/touch.html" afterPath="$PROJECT_DIR$/touch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leaplearn.iws" />
@@ -44,7 +26,7 @@
     <favorites_list name="leaplearn" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38733363">
+    <splitter split-orientation="horizontal" split-proportion="0.38090867">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
@@ -60,8 +42,8 @@
           <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/js/home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.3779141" vertical-offset="1597" max-vertical-offset="2873">
-                  <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
+                <state vertical-scroll-proportion="0.5977918" vertical-offset="1469" max-vertical-offset="2737">
+                  <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -82,7 +64,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.36596385">
+        <splitter split-orientation="horizontal" split-proportion="0.42697465">
           <split-first>
             <leaf>
               <file leaf-file-name="_index.scss" pinned="false" current="false" current-in-tab="false">
@@ -138,7 +120,7 @@
               <file leaf-file-name="touch.js" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/js/touch.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="1.7937888" vertical-offset="613" max-vertical-offset="3825">
+                    <state vertical-scroll-proportion="1.5730519" vertical-offset="119" max-vertical-offset="3825">
                       <caret line="121" column="53" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="53" />
                       <folding />
                     </state>
@@ -172,8 +154,8 @@
               <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/home.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="1.2515337" vertical-offset="0" max-vertical-offset="1173">
-                      <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="1242">
+                      <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
                       <folding>
                         <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                       </folding>
@@ -257,8 +239,8 @@
         <option value="$PROJECT_DIR$/assets/scss/framework/_main.scss" />
         <option value="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" />
         <option value="$PROJECT_DIR$/assets/extras/examples/finger-labels/index.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/assets/js/home.js" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -700,13 +682,19 @@
       <created>1406318943578</created>
       <updated>1406318943578</updated>
     </task>
+    <task id="LOCAL-00001" summary="position hands">
+      <created>1412174447198</created>
+      <updated>1412174447198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -759,6 +747,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="position hands" />
+    <option name="LAST_COMMIT_MESSAGE" value="position hands" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,6 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21501976" vertical-offset="0" max-vertical-offset="1265">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1108,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/touch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7937888" vertical-offset="613" max-vertical-offset="3825">
+        <state vertical-scroll-proportion="1.5730519" vertical-offset="119" max-vertical-offset="3825">
           <caret line="121" column="53" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="53" />
           <folding />
         </state>
@@ -1125,8 +1116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2515337" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="1242">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1135,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3779141" vertical-offset="1597" max-vertical-offset="2873">
-          <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.5977918" vertical-offset="1469" max-vertical-offset="2737">
+          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
