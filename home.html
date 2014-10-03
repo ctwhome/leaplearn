@@ -25,6 +25,8 @@
     Tip position: <span id="finger-position">…</span><br/>
     Tip position (non stable): <span id="tip-position">…</span><br/>
     Finger distance: <span id="finger-distance">…</span><br/>
+    Finger Acceleration: <span id="aceleration">…</span> <br/>
+
     Gesture zone: <span id="touch-zone">…</span> <br/>
     Gesture made: <span id="gesture-made">…</span>
 </p>
@@ -46,18 +48,39 @@
 
 <div id="output">Output</div>
 
+<div id="info" style="background-color: #ededed;position: fixed; top: 20px; right: 290px; width: 220px; display: block; height: 50px;" ></div>
+
+<!--ONE DOLLAR EXAMPLE-->
+<canvas style="background-color: #ededed;position: fixed; top: 80px; right: 10px;" class="sketch" id="js-sketch" width="500px" height="360px"></canvas>
+<div class="data" id="js-data">Draw anticlockwise a circle or triangle.</div>
+
+
 
 
 
 <!-- Needs to present the Hands in 3D-->
+<script src="assets/js/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="assets/js/lib/three.min.js"></script>
+
 <script src="assets/js/lib/leapmotion/leap-0.6.0.js"></script>
 <script src="assets/js/lib/leapmotion/leap-plugins-0.1.6.js"></script>
 <script src="assets/js/lib/leapmotion/leap.rigged-hand-0.1.4.js"></script>
-<script src="assets/js/bower_components/jquery/dist/jquery.min.js"></script>
+
+<!--<script src="assets/js/lib/algorithm/leaptrainer.min.js"></script>-->
+<!--<script src="assets/js/trainer.js"></script>-->
+
+
+// ONE DOLLAR
+
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing-api.min.js"></script>-->
+<script src="assets/js/lib/algorithm/onedollar.min.js"></script>
+
+<script src="assets/js/match.js"></script>
+
 
 <script src="assets/js/home.js"></script>
 <script src="assets/js/paint.js"></script>
+
 
 
 
