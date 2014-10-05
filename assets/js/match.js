@@ -22,8 +22,10 @@ function passGesturesToAlgorithm(){
 
 function matchGesture(gestureArray){
 
+    console.log("matching gesture");
+
     // Refresh gesture list
-    //console.log("Console check: ", gestureArray);
+//    console.log("Console check: ", gestureArray);
     one.check(gestureArray);
 
     // Listener
