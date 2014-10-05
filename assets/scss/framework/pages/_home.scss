@@ -1,0 +1,63 @@
+.home-page{
+    body {
+        font-family: Helvetica;
+
+    }
+
+    .img-detect{
+        position: fixed;
+        top: 20%;
+        left: 30%;
+    }
+
+    /* Space for the hands  */
+//    canvas {
+//        position: fixed;
+//        width: 100%;
+//        height: 100%;
+//        top: 0;
+//        left: 0;
+//    }
+
+
+
+    /* FIXME FOR WHAT IS THIS????*/
+    #debugger {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background: black;
+        color: #eee;
+        padding: 4px;
+        display: none;
+    }
+    #notification-square{
+        width: 200px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: 1px solid #000000;
+
+        .ball{
+            width: 10px;
+            height: 10px;
+            display: block;
+            position: absolute;
+            bottom: 0px;
+            left: 95%;
+            padding-left: 10px;
+            background-color: darkblue;
+        }
+
+        &.gesture{
+            background-color: $green-leap;
+            .ball{
+                background-color: red;
+            }
+        }
+
+
+    }
+}

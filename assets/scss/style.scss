@@ -13,23 +13,26 @@
 
 /* VENDOR - Default fall-backs and external files.
 ========================================================================== */
-//@import 'vendor/normalize';
-//@import 'vendor/simplegrid';                  // Documentation: http://thisisdallas.github.io/Simple-Grid/
-//@import 'vendor/animate';                     // Documentation: http://daneden.github.io/animate.css/
-@import '../../assets/scss/vendor/bootstrap/bootstrap.min.css';
+@import '../../assets/js/bower_components/bootstrap/dist/css/bootstrap.min.css';
+@import 'animate.css';
+
 
 /* BASE - Base Variable file along with starting point Mixins and Placeholders.
 ========================================================================== */
-//@import 'base/vars';
-//@import 'base/bootstrap-variables';
+
 
 
 /* FRAMEWORK - Structure and layout files.
 ========================================================================== */
+@import 'framework/main';
+
 // Pages
+@import 'framework/pages/index';
+@import 'framework/pages/home';
 @import 'framework/pages/help';
 
 
 /* MODULES - Re-usable site elements.
 ========================================================================== */
-//@import 'modules/animated-menu';
+//Painting module
+@import 'framework/modules/paint';
