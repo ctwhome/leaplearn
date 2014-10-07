@@ -17,19 +17,11 @@ function handDetection(frame){
     }
 }
 /**
- * List of gestures
+ * List of gestures and remove elements
  */
 $nameGesture.keypress(function(event) {
     if (event.keyCode == 13) { record(); }
 });
-$("ul.gesture-list li").on("click", function(e){
-    console.log(e.currentTarget);
-    $(e.currentTarget).addClass('animated bounceOutLeft');
-    $(e.currentTarget).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(e.currentTarget).remove();
-    });
-})
-
 /**
  * Debbugin function
  * @param hand
@@ -62,3 +54,66 @@ function infoBars(indexFinger){
         balll.css("width", distance);
     }
 }
+
+
+//Processing.js
+//    new Processing(document.getElementById('js-sketch'),function(p){
+//
+//        var candidate, draw, length, str;
+//
+//        p.setup = function(){
+//            p.size(500, 360);
+//            p.background(230);
+//
+//            candidate = [];
+//            draw = false;
+//
+//            p.noFill();
+//            p.stroke(20);
+//        };
+//
+//        p.draw = function(){
+//            p.background(230);
+//
+//            if(draw===true){
+//                p.stroke(0);
+//            } else {
+//                p.stroke(150);
+//            }
+//
+//            p.beginShape();
+//            for (var l=candidate.length, i=0; i<l; i++) {
+//                p.vertex(candidate[i][0], candidate[i][1]);
+//            }
+//            p.endShape();
+//        };
+//
+//        p.mousePressed = function(){
+//            draw = true;
+//            candidate = [];
+//        };
+//        p.mouseDragged = function(){
+//            candidate.push([p.mouseX, p.mouseY]);
+//        };
+//        p.mouseReleased = function(){
+//
+//            str = 'Here you see the data of the last move ('+candidate.length+' points). With it, you can add easily your own gestures. <br><br>[';
+//            for (var l=candidate.length, i=0; i<l; i++) {
+//                str = str+'['+candidate[i][0]+','+candidate[i][1]+']';
+//            }
+//            str += ']';
+//            document.getElementById('js-data').innerHTML = str;
+//
+//            one.check(candidate);
+//            draw = false;
+//        };
+//
+//    });
+//
+//    /***
+//     *
+//     * @type {{enableGestures: boolean, frameEventName: string}}
+//     */
+//
+//        // write in the dev
+//    gestureMade.innerText = gesture;

@@ -19,10 +19,8 @@ function detectGesture(frame) {
     if  ((ac1 < SPEED_DETECTION) &&
          (ac2 < SPEED_DETECTION) &&
          (ac3 < SPEED_DETECTION)){
-//        console.log("STOP" );
 
         //console.log("STOP", gesture);
-
         if (readingGesture){
             stopRead();
         }
@@ -31,7 +29,7 @@ function detectGesture(frame) {
     // if not, then start reading.
     else {
         if (!blockRead) {
-            console.log("READING");
+//            console.log("READING");
             readingGesture = true;
             read(frame.id, indexFinger.stabilizedTipPosition);
         }
@@ -60,17 +58,14 @@ function read(frameid, screenshot){
  * Stop reading gesture
  */
 function stopRead(){
-    console.log("Stoped");
-
-
-//    gestureCounter = 0;
+    // console.log("Stoped");
 
     notification.removeClass("gesture");
     textBox.html("");
 
     // Mode record
     if (recording){
-        saveGesure(gesture);
+        saveGesure();
     }else{
         // Match gesture
         matchGesture(toTemplate(gesture));

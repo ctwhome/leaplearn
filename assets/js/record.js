@@ -5,9 +5,6 @@ function record(){
         return;
     }
 
-
-
-
     /**
      * Timer draw (Recursive function)
      * @type {HTMLElement}
@@ -46,40 +43,19 @@ function record(){
 /**
  * Save Gesture created in LocalStorage
  */
-function saveGesure(gesture){
-    console.log("Console check: save gesture");
-    /**
-     *  Add gesture to the list
-     */
-    $("ul.gesture-list").prepend('<li><span class="name">'
-        +  $('input#name-gesture').val()
-        + '</span><span class="accurace"></span></li>');
-    $('input#name-gesture').val("");
-
-    /**
-     * Record Gesture
-     */
-    $('ul.gesture-list > li:first-child').addClass('animated flash');
-
+function saveGesure(){
+    //  Add gesture to the list
+    nameGesture = $('#name-gesture').val();
 
     //last gesture push
     for (var i in gesture){
         for(var j in gesture[i])
             gesture[i][j] = Math.round(gesture[i][j]);
     }
-    userGestures.push(gesture)
-    localStorage.setItem('userGestures', JSON.stringify(userGestures));
 
+    addGestureTotheList();
 
-    console.log("Gesture recorder: ", gesture);
     readingGesture = true;
     recording = false;
-}
-
-
-/**
- * Update gestures json file
- */
-function addGestureToFile(){
-
+    console.log("Gesture saved");
 }

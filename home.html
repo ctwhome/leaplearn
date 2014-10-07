@@ -26,12 +26,8 @@
     <h3>Gestures:</h3>
     <input id="name-gesture" type="text"/>
     <button name="create_button" class="btn btn-sm btn-primary" onclick="record()">Create gesture</button>
-    <ul class="gesture-list">
-        <li><span class="name">Name gesture</span><span class="accurace">80%</span></li>
-        <li><span class="name">Name gesture</span><span class="accurace">50%</span></li>
-        <li><span class="name">Name gesture</span><span class="accurace">10%</span></li>
-        <li><span class="name">Name gesture</span><span class="accurace">20%</span></li>
-    </ul>
+    <ul class="gesture-list"></ul>
+    <button name="addExampleGestures" class="btn btn-xs btn-default" style="background-color: white" onclick="getGestureListJSON()">Load example gestures</button>
 </aside>
 
 
@@ -101,7 +97,6 @@
 <script src="assets/js/lib/leapmotion/leap-plugins-0.1.6.js"></script>
 <script src="assets/js/lib/leapmotion/leap.rigged-hand-0.1.4.js"></script>
 
-
 <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing-api.min.js"></script>-->
 <script src="assets/js/lib/algorithm/onedollar.min.js"></script>
 
@@ -110,8 +105,8 @@
 <script src="assets/js/record.js"></script>
 <script src="assets/js/interface.js"></script>
 <script src="assets/js/match.js"></script>
+<script src="assets/js/gestureList.js"></script>
 <script src="assets/js/home.js"></script>
-
 
 </body>
 </html>

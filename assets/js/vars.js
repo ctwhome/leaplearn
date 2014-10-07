@@ -6,9 +6,11 @@ const FRAMES_OLGURA = 25;
 const SPEED_DETECTION = 50;
 
 var hand, finger, indexFinger,
-    gesture = [],
-    userGestures = [],
-    gestureList = {};
+    gesture = [],                       // Actual Gesture
+    nameGesture = "",                   // Name of gesture
+    gestureList = {},                   // list of gestures
+    gestureNames = "";                  // Names of the gestures
+
 
 // counter to detect the gesture in the touch zone
 var readingGesture = false,
@@ -38,6 +40,8 @@ var $nameGesture= $('input#name-gesture');
 
 // OneDollar Algorithm
 var one = new OneDollar();
+
+
 
 var normalizedDisplay = document.getElementById("normPosition");
 var tipDisplay = document.getElementById("tipPosition");

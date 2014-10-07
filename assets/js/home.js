@@ -15,7 +15,8 @@
  * Main Function
  */
 var main = function (){
-    getListOfGesture();
+    getListFromLocalSotorage();     // LOAD FROM LOCAL STORAGEges
+    updateDataList();               // Load the algorithm
 }();
 
 
@@ -44,17 +45,3 @@ Leap.loop(options, function(frame) {
 })
     //Ussing plugins
     .use('riggedHand');                      // Render 3d hands
-
-
-/**
- * Get list of gestures
- * @returns {Array}
- */
-function getListOfGesture(){
-    // GET FROM FILE
-    $.getJSON("assets/data/gesture_base.json", function(json){
-        gestureList = json;
-        console.log("Gestures list data loaded.");
-        passGesturesToAlgorithm();
-    });
-}
