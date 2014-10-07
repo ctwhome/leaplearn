@@ -56,64 +56,55 @@ function infoBars(indexFinger){
 }
 
 
-//Processing.js
-//    new Processing(document.getElementById('js-sketch'),function(p){
-//
-//        var candidate, draw, length, str;
-//
-//        p.setup = function(){
-//            p.size(500, 360);
-//            p.background(230);
-//
-//            candidate = [];
-//            draw = false;
-//
-//            p.noFill();
-//            p.stroke(20);
-//        };
-//
-//        p.draw = function(){
-//            p.background(230);
-//
-//            if(draw===true){
-//                p.stroke(0);
-//            } else {
-//                p.stroke(150);
-//            }
-//
-//            p.beginShape();
-//            for (var l=candidate.length, i=0; i<l; i++) {
-//                p.vertex(candidate[i][0], candidate[i][1]);
-//            }
-//            p.endShape();
-//        };
-//
-//        p.mousePressed = function(){
-//            draw = true;
-//            candidate = [];
-//        };
-//        p.mouseDragged = function(){
-//            candidate.push([p.mouseX, p.mouseY]);
-//        };
-//        p.mouseReleased = function(){
-//
-//            str = 'Here you see the data of the last move ('+candidate.length+' points). With it, you can add easily your own gestures. <br><br>[';
-//            for (var l=candidate.length, i=0; i<l; i++) {
-//                str = str+'['+candidate[i][0]+','+candidate[i][1]+']';
-//            }
-//            str += ']';
-//            document.getElementById('js-data').innerHTML = str;
-//
-//            one.check(candidate);
-//            draw = false;
-//        };
-//
-//    });
-//
-//    /***
-//     *
-//     * @type {{enableGestures: boolean, frameEventName: string}}
-//     */
-//
-//        // write in the dev
-//    gestureMade.innerText = gesture;
+
+
+// Painting
+(function paint(square, points) {
+
+var points = [[68,222],[70,220],[73,218],[75,217],[77,215],[80,213],[82,212],[84,210],[87,209],[89,208],[92,206],[95,204],[101,201],[106,198],[112,194],[118,191],[124,187],[127,186],[132,183],[138,181],[141,180],[146,178],[154,173],[159,171],[161,170],[166,167],[168,167],[171,166],[174,164],[177,162],[180,160],[182,158],[183,156],[181,154],[178,153],[171,153],[164,153],[160,153],[150,154],[147,155],[141,157],[137,158],[135,158],[137,158],[140,157],[143,156],[151,154],[160,152],[170,149],[179,147],[185,145],[192,144],[196,144],[198,144],[200,144],[201,147],[199,149],[194,157],[191,160],[186,167],[180,176],[177,179],[171,187],[169,189],[165,194],[164,196]];
+
+    // repeat this for every point
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = '#c00';
+    ctx.lineCap = 'round';
+
+    ctx.beginPath();
+    ctx.moveTo(20,20);
+    for (var i in points){
+            ctx.lineTo(points[i][0],points[i][1]);
+    }
+    ctx.stroke();
+
+})();
+
+
+/**
+ * Gest the min and the max of the canvas
+ */
+function minMax() {
+    var minX = 1000000,
+        minY = 1000000,
+        maxX = -1000000,
+        maxY = -1000000,
+        i = 0, p,
+        lw = ctx.lineWidth;
+
+    for(; p = points[i++];) {
+        if (p.x > maxX) maxX = p.x;
+        if (p.y > maxY) maxY = p.y;
+        if (p.x < minX) minX = p.x;
+        if (p.y < minY) minY = p.y;
+    }
+
+    ctx.lineWidth = 3;
+    ctx.strokeRect(minX, minY, maxX - minX, maxY - minY);
+    ctx.lineWidth = lw;
+}
+
+
+
+
+

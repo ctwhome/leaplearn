@@ -1,6 +1,7 @@
 $background-color-box: rgba(200, 200, 200, 0.5);
 $blue: rgba( 0, 81, 122, 0.9);
 $green: rgba(39, 174, 97, 0.9);
+$dark-gray: rgb(123, 123, 123);
 
 .home-page {
     /* Space for the hands  */
@@ -45,11 +46,15 @@ $green: rgba(39, 174, 97, 0.9);
                 &.winner{
                     background-color: $green;
                     color: white;
+                    span.score{
+                        color: white;
+                    }
                 }
                 background-color: $background-color-box;
                 padding: 5px 10px;
                 span.score{
                     float: right;
+                    color: $dark-gray;
                 }
                 &:hover{
                     background-color: darken($background-color-box, 20%);
@@ -93,7 +98,6 @@ $green: rgba(39, 174, 97, 0.9);
                 float: right;
                 background-color: lightgray;
                 right: 50%;
-
             }
 
             &.gesture {
