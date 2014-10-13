@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd28c9d7-6ba3-4af6-969d-c6b3aaadca34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" afterPath="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/interface.js" afterPath="$PROJECT_DIR$/assets/js/interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css.map" afterPath="$PROJECT_DIR$/assets/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/match.js" afterPath="$PROJECT_DIR$/assets/js/match.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/read.js" afterPath="$PROJECT_DIR$/assets/js/read.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vars.js" afterPath="$PROJECT_DIR$/assets/js/vars.js" />
     </list>
     <ignored path="leaplearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +28,14 @@
     <favorites_list name="leaplearn" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39254385">
+    <splitter split-orientation="horizontal" split-proportion="0.3736842">
       <split-first>
         <leaf>
           <file leaf-file-name="_home.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="2499">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="2499">
+                  <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -44,18 +44,18 @@
           <file leaf-file-name="gesture_base.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/data/gesture_base.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-                  <caret line="6" column="662" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="662" />
+                <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
+                  <caret line="8" column="1064" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="1064" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="interface.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="interface.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/js/interface.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35251215" vertical-offset="636" max-vertical-offset="1972">
-                  <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.83371645" vertical-offset="51" max-vertical-offset="2737">
+                  <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +64,8 @@
           <file leaf-file-name="match.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/match.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-                  <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1802">
+                  <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -84,7 +84,7 @@
           <file leaf-file-name="gestureList.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/gestureList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2210">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
                   <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -93,23 +93,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="12.423077" vertical-offset="425" max-vertical-offset="2023">
-                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.37597173">
+        <splitter split-orientation="horizontal" split-proportion="0.5116115">
           <split-first>
             <leaf>
               <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
@@ -147,8 +134,8 @@
               <file leaf-file-name="read.js" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assets/js/read.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1666">
-                      <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+                    <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1411">
+                      <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
                       <folding>
                         <element signature="n#!!doc" expanded="true" />
                       </folding>
@@ -156,10 +143,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="record.js" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="record.js" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assets/js/record.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.436247" vertical-offset="0" max-vertical-offset="1247">
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
                       <caret line="55" column="23" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="23" />
                       <folding>
                         <element signature="e#405#994#0" expanded="false" />
@@ -169,15 +156,27 @@
                   </provider>
                 </entry>
               </file>
+              <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/home.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-0.3291634" vertical-offset="710" max-vertical-offset="1989">
+                      <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                      <folding>
+                        <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
             </leaf>
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="vars.js" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="vars.js" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/js/vars.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-                      <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                    <state vertical-scroll-proportion="0.21927163" vertical-offset="0" max-vertical-offset="1318">
+                      <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
                       <folding>
                         <element signature="e#0#38#0" expanded="false" />
                       </folding>
@@ -195,10 +194,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="onedollar.js" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="onedollar.js" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assets/js/lib/algorithm/onedollar.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.7573588" vertical-offset="663" max-vertical-offset="6630">
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6630">
                       <caret line="95" column="25" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="25" />
                       <folding />
                     </state>
@@ -239,23 +238,22 @@
         <option value="$PROJECT_DIR$/assets/scss/framework/pages/_index.scss" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/assets/js/player.js" />
-        <option value="$PROJECT_DIR$/assets/js/read.js" />
         <option value="$PROJECT_DIR$/assets/js/record.js" />
-        <option value="$PROJECT_DIR$/assets/js/vars.js" />
         <option value="$PROJECT_DIR$/assets/js/home.js" />
-        <option value="$PROJECT_DIR$/assets/js/match.js" />
         <option value="$PROJECT_DIR$/assets/js/gestureList.js" />
         <option value="$PROJECT_DIR$/assets/data/gesture_base.json" />
         <option value="$PROJECT_DIR$/assets/scss/framework/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/assets/js/read.js" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/assets/js/match.js" />
         <option value="$PROJECT_DIR$/assets/js/interface.js" />
+        <option value="$PROJECT_DIR$/assets/js/vars.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="2560" />
-    <option name="height" value="1414" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -498,7 +496,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file:///Users/ctw/Sites/github/leaplearn/assets/sass/style.scss" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="LayoutCode.rearrangeEntriesSCSS" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
@@ -551,7 +549,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +598,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1581">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -659,7 +656,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1581">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -718,7 +714,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
           <caret line="31" column="77" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="77" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -745,7 +740,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="778" max-vertical-offset="1700">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -898,33 +892,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1666">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/record.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.436247" vertical-offset="0" max-vertical-offset="1247">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="55" column="23" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="e#405#994#0" expanded="false" />
             <element signature="e#857#949#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/vars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -939,20 +913,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/lib/algorithm/onedollar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7573588" vertical-offset="663" max-vertical-offset="6630">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6630">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
+    <entry file="file://$PROJECT_DIR$/assets/data/gesture_base.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.423077" vertical-offset="425" max-vertical-offset="2023">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
+          <caret line="8" column="1064" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="1064" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/extras/homeAllFingers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,43 +953,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/extras/homeAllFingers.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/read.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1411">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/framework/pages/_home.scss">
+    <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="2499">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-0.3291634" vertical-offset="710" max-vertical-offset="1989">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/match.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/data/gesture_base.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-          <caret line="6" column="662" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="662" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1802">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35251215" vertical-offset="636" max-vertical-offset="1972">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.83371645" vertical-offset="51" max-vertical-offset="2737">
+          <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21927163" vertical-offset="0" max-vertical-offset="1318">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

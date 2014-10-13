@@ -3,7 +3,10 @@
  */
 // time (in frames) to detect if the gesture its outside of the gesture zone
 const FRAMES_OLGURA = 25;
-const SPEED_DETECTION = 50;
+const SPEED_DETECTION = 100;
+const PADING_CANVAS_BOX = 97;
+// AXIS 1: xy  || 2: xy & yz || 3 xy & yz & zy
+const NUM_AXIS = 1;
 
 var hand, finger, indexFinger,
     gesture = [],                       // Actual Gesture

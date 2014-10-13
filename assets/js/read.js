@@ -68,26 +68,10 @@ function stopRead(){
         saveGesure();
     }else{
         // Match gesture
-        matchGesture(toTemplate(gesture));
+        matchGesture(gesture);
     }
 
  // Reset the gesture read
     gesture = [];
     readingGesture = false;
-}
-
-/**
- * Template for 1 Dollar
- * @param gesture
- * @return Function array with the format for 1 Dollar
- */
-function toTemplate(gesture){
-    var gestureTemplate = [];
-    for (var i in gesture){
-        gestureTemplate.push([
-            Math.round(gesture[i][0]),
-            Math.round(gesture[i][1])                           // 2 dimension, add the third!
-        ])
-    }
-    return gestureTemplate;
 }
