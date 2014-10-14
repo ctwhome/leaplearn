@@ -65,12 +65,12 @@ function paintShape(){
     // Clean the canvas every time
     $("#graphs").html('' +
             '<canvas id="square3d-xy" class="square3d" width="100" height="100"></canvas>' +
-            '<canvas id="square3d-xz" class="square3d" width="100" height="100"></canvas>'
-//            '<canvas id="square3d-yz" class="square3d" width="100" height="100"></canvas>'
+            '<canvas id="square3d-xz" class="square3d" width="100" height="100"></canvas>' +
+            '<canvas id="square3d-yz" class="square3d" width="100" height="100"></canvas>'
     );
     paint("square3d-xy",  getAxis(gesture,0,1));
     paint("square3d-xz",  getAxis(gesture,0,2));
-//    paint("square3d-yz",  getAxis(gesture,1,2));
+    paint("square3d-yz",  getAxis(gesture,1,2));
 }
 
 /**
