@@ -34,8 +34,24 @@ function matchGesture(gestureToCheck){
         var winner =  "ul.gesture-list li#list-"+ result.name;
         $(winner).addClass("winner");
         });
+
+
+    /*FIXME KEYBOARD*/
+    simulateKeyPress("10");
+
+
+
     //console.log("matching gesture");
 }
+
+/*FIXME KEYBOARD*/
+function simulateKeyPress(character) {
+    jQuery.event.trigger({ type : 'keypress', which : character.charCodeAt(0) });
+    console.log("Console check: ", character);
+}
+
+
+
 
 /**
  * Template for 1 Dollar

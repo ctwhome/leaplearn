@@ -3,6 +3,9 @@ $blue: rgba( 0, 81, 122, 0.9);
 $green: rgba(39, 174, 97, 0.9);
 $dark-gray: rgb(123, 123, 123);
 
+/*FIXME*/
+.playback-move-hand {display: none}
+
 .home-page {
     /* Space for the hands  */
     canvas {
