@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leap Learn - Gestures</title>
+    <meta name="author" content="Jesus Garcia Gonzalez - www.ctwhome.com">
+    <meta name="description" content="Project - Final master job by Jesús García">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--<script src="assets/js/bower_components/require/build/require.min.js"></script>
+    <script>
+        require(['./assets/js/main.js'], function (common) { require(['app/Index']); });
+    </script>-->
+
+
+</head>
+<body>
+
+
+
+<script src="assets/js/lib/three.min.js"></script>
+<script src="assets/js/lib/leapmotion/leap-0.6.0.js"></script>
+<script src="assets/js/lib/leapmotion/leap-plugins-0.1.6.js"></script>
+<script src="assets/js/lib/leapmotion/leap.rigged-hand-0.1.4.js"></script>
+<script src="assets/js/bower_components/jquery/dist/jquery.min.js"></script>
+
+
+
+
+
+<div id="stage" style="background-color:rgb(250,235,200); width:800px; height:600"></div>
+<script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.5.4.min.js"></script>
+<script>
+    var stageWidth = 800;
+    var stageHeight = 600;
+
+    var tips = new Array(10);
+
+    var stage = new Kinetic.Stage({
+        container: 'stage',
+        width: stageWidth,
+        height: stageHeight
+    });
+
+    var leap = new Leap.Controller();
+    leap.connect();
+
+    var layer = new Kinetic.Layer();
+
+    //Make ten circles to use as finger tips
+    for (var t = 0; t < 10; t++) {
+        var tip = new Kinetic.Circle({
+            x: 239,
+            y: 75,
+            radius: 20,
+            fill: 'green',
+            stroke: 'black',
+            strokeWidth: 4,
+            opacity: .5,
+            visible: false
+        });
+        tips[t] = tip;
+        layer.add(tip);
+    }
+
+    // add the layer to the stage
+    stage.add(layer);
+
+    var anim = new Kinetic.Animation(function (frame) {
+        var time = frame.time,
+                timeDiff = frame.timeDiff,
+                frameRate = frame.frameRate;
+
+        // update finger tip display with data from latest frame
+        var tipPointer = 0;
+        var leapFrame = leap.frame();
+        if (leapFrame.valid) {
+            var iBox = leapFrame.interactionBox;
+            for (var p = 0; p < leapFrame.pointables.length; p++) {
+                var pointable = leapFrame.pointables[p];
+                var pos = iBox.normalizePoint(pointable.tipPosition, true);
+                tips[tipPointer].setX(pos[0] * stageWidth);
+                tips[tipPointer].setY(stageHeight - pos[1] * stageHeight);
+                tips[tipPointer].setVisible(true);
+                if (pointable.touchZone == "hovering") {
+                    tips[tipPointer].setOpacity(.375 - pointable.touchDistance * .2);
+                    tips[tipPointer].setFillRGB({r: 0, g: 128, b: 0});
+                } else if (pointable.touchZone == "touching") {
+                    tips[tipPointer].setOpacity(.375 - pointable.touchDistance * .5);
+                    tips[tipPointer].setFillRGB({r: 128, g: 0, b: 0});
+                } else {
+                    tips[tipPointer].setOpacity(.1);
+                    tips[tipPointer].setFillRGB({r: 0, g: 0, b: 128});
+                }
+                if (tipPointer < 9) tipPointer++;
+            }
+            while (tipPointer <= 9) tips[tipPointer++].setVisible(false);
+        }
+    }, layer);
+
+    anim.start();
+
+</script>
+
+
+</body>
+</html>
