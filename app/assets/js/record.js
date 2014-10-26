@@ -64,26 +64,26 @@ function saveGesure(){
     //  Add gesture to the list
     nameGesture = $('#name-gesture').val();
 
-    //last gesture push
-    for (var i in gesture){
-        for(var j in gesture[i])
-            gesture[i][j] = Math.round(gesture[i][j]);
-    }
 
-  addGestureTotheList();
+  // round the gesture to save
+  $.each(gesture, function (i, elem) {
+    for (var j in elem)
+    elem[j] = Math.round(elem[j]);
+  });
 
+
+  console.log("saveGesure: ", gesture);
+    addGestureTotheList();
     readingGesture = true;
     recording = false;
-    prompt = false;
-    console.log("Gesture saved");
+    stopReadGestures = false;
 }
 
 // EXAMPLE
 function recordKey() {
-  prompt = true;
+  stopReadGestures = true;
   $('.gestureKey').html("");
-  $('#square3d-yz').focus();
-
   $('#modal-recordkey').modal('show');
+  $('#modal-recordkey').focus();
   //when the button is close: then save gesture
 }

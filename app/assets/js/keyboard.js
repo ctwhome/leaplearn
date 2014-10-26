@@ -31,12 +31,12 @@ function fireKey(key) {
  */
 
   $(document).on('keydown', updateReadout);
-  $(document).on('keyup', updateReadout);
+  //$(document).on('keyup', updateReadout);
 
-  var $demoReadout, konami, kI = 0;
+  var $boxKeyReaded, konami, kI = 0;
 
-  $demoReadout = $('.gestureKey');
-  $demoReadout.html('Press some keys...');
+  $boxKeyReaded = $('.gestureKey');
+  $boxKeyReaded.html('Press some keys...');
   konami = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
 
   function updateReadout() {
@@ -61,7 +61,9 @@ function fireKey(key) {
       } else {
         //keysString = 'Press some keys...';
       }
-      $demoReadout.html(keysString);
+      keyGesture = keysString;
+      $boxKeyReaded.html(keysString);
+      //console.log("Console check key: ", keyGesture);
       return (keysString);
     }, 0);
   }

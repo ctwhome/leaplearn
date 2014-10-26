@@ -12,8 +12,10 @@
  */
 function addGestureTotheList(){
     // Add gesture to the Object
-    gestureList[nameGesture] = gesture;
-    addUIList(nameGesture);
+    gestureList[nameGesture] = {key: keyGesture, gesture: gesture};
+
+    console.log("Gesture saved", JSON.stringify(gestureList));
+    addUIList(nameGesture, keyGesture);
     updateDataList();
 }
 
@@ -46,19 +48,24 @@ function updateDataList(){
  * Gesture List Interface
  */
 function UIlistFromLocalStorage() {
-    var $list = $("ul.gesture-list").html("");
 
     $.each(gestureList, function(k, v) {
         //display the key and value pair: console.log(k + ' is ' + v);
-        addUIList(k);
+      // k: name of gesture
+      // v: v.key and v.gesture
+      console.log("Console check: ", v);
+      addUIList(k, v.key);
     });
 }
 
-function addUIList(nameGesture) {
+function addUIList(nameGesture, keyGesture) {
     // Ui changes
     $("ul.gesture-list").prepend('<li id="list-'+nameGesture+'"><span class="name">'
         +  nameGesture
-        + '</span><span class="score"></span></li>');
+        + '</span><span class="key"><span class="glyphicon glyphicon-chevron-right"></span>'
+        +  keyGesture
+        + '</span>' +
+        '<span class="score"></span></li>');
     $('input#name-gesture').val("");
     $('ul.gesture-list > li:first-child').addClass('animated bounceInLeft');
     addListenerRemoveGestureFromList();
@@ -77,8 +84,9 @@ function addListenerRemoveGestureFromList(){
         $current.removeAttr("class");
         $current.addClass('animated bounceOutLeft');
         // Detect the animation and realice something
-       // console.log("Console check: ", $current);
+        // console.log("Console check: ", $current);
 
+        // when the animation is finished
         $current.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
         // Remove element from the sistem
             removeGestureFromList(name);
@@ -89,29 +97,19 @@ function addListenerRemoveGestureFromList(){
 
 /**
  * ***********************************************************************************
- * LOCAL STORAGE
+ * JSON FILE SAMPLE
  * ***********************************************************************************
  */
-function updateLocalStorage(){
-    localStorage.setItem('userGestures', JSON.stringify(gestureList));
-    //console.log("Gesture recorder: ", gesture);
-}
-// From localStorage
-function getListFromLocalSotorage(){
-    gestureList = JSON.parse(localStorage.getItem('userGestures')) || {};
-    UIlistFromLocalStorage();
-}
-
-// JSON EXAMPLE
 function getGestureListJSON(){
     // GET FROM FILE
     $.getJSON("assets/data/gesture_base.json", function(json){
 
-
+      console.log("Console check: ", json);
         $.each(json, function(k,v) {
             nameGesture = k;
-            gesture = v;
-            console.log("Console check: ", nameGesture);
+            keyGesture = v.key;
+            gesture = v.gesture;
+            //console.log("Console check: ", nameGesture);
 
             addGestureTotheList();
         });
