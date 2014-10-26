@@ -32,7 +32,7 @@
         margin: 50px auto;
     }
     #loader { fill: $background-color-box }
-    #border { fill: $blue }
+    #border { fill: $blue-trans }
 
     aside.left{
         width: 300px;
@@ -84,7 +84,7 @@
                     cursor: pointer;
                 }
                 &.readed{
-                    color: $blue;
+                    color: $blue-trans;
                 }
             }
         }

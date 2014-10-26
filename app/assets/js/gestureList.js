@@ -50,10 +50,10 @@ function updateDataList(){
 function UIlistFromLocalStorage() {
 
     $.each(gestureList, function(k, v) {
-        //display the key and value pair: console.log(k + ' is ' + v);
+      //display the key and value pair: console.log(k + ' is ' + v);
       // k: name of gesture
       // v: v.key and v.gesture
-      console.log("Console check: ", v);
+      //console.log("Console check: ", v);
       addUIList(k, v.key);
     });
 }
@@ -117,7 +117,6 @@ function getGestureListJSON(){
         console.log("Gestures list data loaded.");
         //passGesturesToAlgorithm();
     });
-
 
     addListenerRemoveGestureFromList();
 }

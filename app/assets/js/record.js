@@ -64,7 +64,6 @@ function saveGesure(){
     //  Add gesture to the list
     nameGesture = $('#name-gesture').val();
 
-
   // round the gesture to save
   $.each(gesture, function (i, elem) {
     for (var j in elem)

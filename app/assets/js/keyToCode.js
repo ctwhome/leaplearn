@@ -7,15 +7,16 @@
  * @param key
  */
 function keyToCode(key){
-  console.log("Console check key: ", key);
+  //console.log("Console check key: ", key);
 
   var out = 0;
 switch(key){
     case "up":    out=126; break;
-
     case "down":  out=125; break;
     case "left":  out=123; break;
     case "right": out=124; break;
+
+    case "escape": out=53; break;
     case "enter": out=36; break;
 
     case "f1":    out=122; break;
@@ -31,6 +32,5 @@ switch(key){
     case "f11":   out=103; break;
     case "f12":   out=111; break;
   }
-  console.log("Console check: ", out);
   return out;
 }

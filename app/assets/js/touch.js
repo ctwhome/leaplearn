@@ -13,37 +13,34 @@
  */
 
 var link_playrecorder = "home.html";
-
-
-
-$( document ).ready(function() {
-
     /**
      * Buttons
      */
 
      // Entrar
     var entranceButton = area("#entranceButton");
-    var helpButton = area("#helpButton");
+    //var helpButton = area("#helpButton");
     var backToHomeButton = area("#backToHomeButton");
 
-    console.log("Console check: ", helpButton);
+    //console.log("Console check: ", helpButton);
     console.log("Console check: ", backToHomeButton);
 
+//
+//
+    // helpButton
+    //var $helpButton = $("#helpButton").offset();
+    //var helpButtonY = $helpButton.top - $(window).scrollTop();
+    //var helpButtonX = $helpButton.left - $(window).scrollLeft();
 
-//
-//
-//    // helpButton
-//    var $helpButton = $("#helpButton").offset();
-//    var helpButtonY = $helpButton.top - $(window).scrollTop();
-//    var helpButtonX = $helpButton.left - $(window).scrollLeft();
-//
-//
-//    // Button Home
-//    var $backToHomeButton = $("#backToHomeButton").offset();
-//    var backToHomeButtonY = $backToHomeButton.top - $(window).scrollTop();
-//    var backToHomeButtonX = $backToHomeButton.left - $(window).scrollLeft();
+    // Button Home
+    var backToHomeButton = $("#backToHomeButton").offset();
 
+
+
+
+  //console.log("offset: ", ("#backToHomeButton").offset());
+    var backToHomeButtonY = backToHomeButton.top - $(window).scrollTop();
+    var backToHomeButtonX = backToHomeButton.left - $(window).scrollLeft();
 
     /**
      * Touch
@@ -164,10 +161,10 @@ $( document ).ready(function() {
             window.location.href = link_playrecorder;
         }
 
-        if (between(posX, helpButton.left, helpButton.right) && between(posY, helpButton.top, helpButton.bottom)) {
-            $('.index-content').addClass('hide');
-            $('.help-content').removeClass('hide');
-        }
+        //if (between(posX, helpButton.left, helpButton.right) && between(posY, helpButton.top, helpButton.bottom)) {
+        //    $('.index-content').addClass('hide');
+        //    $('.help-content').removeClass('hide');
+        //}
 
         if (between(posX, backToHomeButton.left, backToHomeButton.right) && between(posY, backToHomeButton.top, backToHomeButton.bottom)) {
             $('.help-content').addClass('hide');
@@ -177,16 +174,15 @@ $( document ).ready(function() {
 
 
 
-
     /**
      * Position top, left, bottom, right
      * @param {string} id
      * return array
      */
     function area(id){
-        var $div = $(id).position();
-        var verLeft= $div.left - $('body').scrollLeft();
-        var verTop = $div.top - $('body').scrollTop();
+        var div = $(id).position();                           // return an object
+        var verLeft= div.left - $('body').scrollLeft();
+        var verTop = div.top - $('body').scrollTop();
         var verRight = verLeft + $("#entranceButton").width()+ 30;
         var verBottom = verTop + $("#entranceButton").height() + 20;
 
@@ -201,8 +197,6 @@ $( document ).ready(function() {
 
 
 
-
-});
 
 function changePages(e){
     if (e.currentTarget.getAttribute('data-button') === "help"){

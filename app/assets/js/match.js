@@ -94,7 +94,6 @@ function calculateAverageReturns(averageResutls){
 
     }
   })
-  console.log("calculateAverageReturns: ", ranking);
   return ranking;
 };
 
@@ -106,8 +105,6 @@ function calculateAverageReturns(averageResutls){
 function writeUIelements(ranking){
 
   var scoreList = [];
-
-  console.log("writeUIelements: ", ranking);
   //Paint results in % into the list
   $.each(ranking, function(k,v){
     scoreList.push(v[0]);
@@ -115,7 +112,6 @@ function writeUIelements(ranking){
     $(li).find("span.score").html(v[0]+"%");
     $(li).removeClass("winner");
   })
-
 
 
   // SET THE WINNER
