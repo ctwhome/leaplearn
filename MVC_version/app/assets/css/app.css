@@ -1,0 +1,15 @@
+.big {
+    font-size: 150%;
+}
+
+.bigger {
+    font-size: 200%;
+}
+
+.biggest {
+    font-size: 250%;
+}
+
+.underline {
+    text-decoration: underline;
+}
