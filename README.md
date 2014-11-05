@@ -15,6 +15,7 @@ Deploy application
 Clone repository and Install node dependences with
 ```sh
 git clone https://github.com/ctwhome/leaplearn
+cd leaplearn
 node install
 ```
 
