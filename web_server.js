@@ -11,7 +11,7 @@
  * ---------------------
  */
 var static = require('node-static');
-var keyboard = require('node-mackeyboard');
+var keyboard = require('mac-keyboard');
   welcomeMessage();
 	keyboard.init();
 

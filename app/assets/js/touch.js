@@ -196,8 +196,6 @@ var link_playrecorder = "home.html";
 
 
 
-
-
 function changePages(e){
     if (e.currentTarget.getAttribute('data-button') === "help"){
         $('.index-content').addClass('hide');
