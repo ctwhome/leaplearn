@@ -10,12 +10,25 @@ Installation:
 Set the properties of the Leap Motion device:
 > Settings > General > Allow Web Apps    "must be activated".
 
-Run application
+Deploy application
 --------------------
+Clone repository and Install node dependences with
 ```sh
-node web_server
+git clone https://github.com/ctwhome/leaplearn
+node install
 ```
 
+Run server
+----------
+```sh
+# For dev, see gulpfile.js
+gulp
+
+# For execute: 
+gulp server  
+# Or
+node web_server.js
+```
 
 Vendor: 
 --------
