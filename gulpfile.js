@@ -46,7 +46,7 @@ var run         = require('gulp-run');
 var opn         = require('opn');                     // Open window in the browser
 var livereload  = require('gulp-livereload');
 
-// -89
+// 
 // Compile Sass with compass and sourcemaps
 //
 gulp.task('compass', function() {
