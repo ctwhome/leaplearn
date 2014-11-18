@@ -3,7 +3,7 @@ extras
 .sass-cache
 bower_components
 node_modules
-.idea
+.idea/
 .jshintrc
 .bin
 .DS_Store
