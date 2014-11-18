@@ -33,7 +33,7 @@ var readingGesture = false,
 
 var gestureCounter = 0;
 
-// POINTABLE ZONE
+// DEBUGG ZONE
 var fingerName          = document.getElementById("finger-name"),
     fingerPosition      = document.getElementById("finger-position"),
     fingerTipPosition   = document.getElementById("tip-position"),
