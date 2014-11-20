@@ -76,7 +76,7 @@ gulp.task('compass', function() {
 // gulp.task('scripts', function(){
 //   gulp.src(settings.scripts.src)                    // Anything with js extension
 //   .pipe(concat(settings.scripts.dest))              // concat in destinifile
-//   //.pipe(uglify())                                 -89// Minimize
+//   //.pipe(uglify())                                 // Minimize
 //   .pipe(gulp.dest(settings.scripts.folderDest));
 // });
 
