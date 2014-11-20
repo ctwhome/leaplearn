@@ -10,11 +10,11 @@
  * Home view
  * ---------------------
  */
-define(['handlebars','text!templates/homeTemplate.html'],function(Handlebars,HomeTemplate){
+define(['handlebars','text!templates/gesturezoneTemplate.html'],function(Handlebars,Template){
 
   function render(){
     var appDiv = document.getElementById('leap-learn');
-    var template = Handlebars.compile(HomeTemplate);
+    var template = Handlebars.compile(Template);
     appDiv.innerHTML = template();
   }
 

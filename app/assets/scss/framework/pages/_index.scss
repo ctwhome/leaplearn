@@ -1,19 +1,19 @@
+/**
+ * LeapLearn. by Jesus García
+ * ----------------------------------------------------------------
+ * Copyright (c) 2014 Universidad Carlos III de Madrid
+ *
+ * @link http://www.ctwhome.com/leaplearn
+ * @copyright 2014 Jesus García
+ * @date 11/09/14, 10:44.
+ *
+ * Home sass
+ * ---------------------
+ */
 #leap-learn{
     img{
-        position: absolute;
+        //position: absolute;
     }
-    width: 1024px;
-    height: 768px;
-    margin: 0 auto;
-    display: block;
-
-    border: 1px solid rgba(255, 255, 255, .1);
-    -webkit-background-clip: padding-box; /* for Safari */
-    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
-
-    position: relative;
-
-
     #postionfinger{
         position: absolute;
     }
@@ -38,7 +38,7 @@
 
     .jumbotron{
         margin: -15px;
-        margin-top: 150px;
+        margin-top: 50px;
         max-width: 1024px;
         background-color: rgba(238, 238, 238, 0.8);
         position: relative;

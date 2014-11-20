@@ -10,11 +10,11 @@
  * Home view
  * ---------------------
  */
-define(['handlebars','text!templates/homeTemplate.html'],function(Handlebars,HomeTemplate){
+define(['handlebars','text!templates/settingsPanelTemplate.html'],function(Handlebars,Template){
 
   function render(){
-    var appDiv = document.getElementById('leap-learn');
-    var template = Handlebars.compile(HomeTemplate);
+    var appDiv = document.getElementById('settingsPanel');
+    var template = Handlebars.compile(Template);
     appDiv.innerHTML = template();
   }
 

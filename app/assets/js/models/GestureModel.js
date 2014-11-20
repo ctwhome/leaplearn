@@ -1,5 +1,14 @@
 /**
- * Created by ctw on 18/11/14.
+ * LeapLearn. by Jesus García
+ * ----------------------------------------------------------------
+ * Copyright (c) 2014 Universidad Carlos III de Madrid
+ *
+ * @link http://www.ctwhome.com/leaplearn
+ * @copyright 2014 Jesus García
+ * @date 11/09/14, 10:44.
+ *
+ * Gesture model
+ * ---------------------
  */
 define(['text!../data/gesture_base.json'],function(gesturesJSON){
   function Gesture(name, key, gesture){

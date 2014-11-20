@@ -20,7 +20,7 @@ define(function(){
    */
   var routes = [
     {hash:'#home',  controller:'HomeController'},
-    {hash:'#gestureZone', controller:'GestureZoneController'}
+    {hash:'#gesturezone', controller:'GesturezoneController'}
   ];
 
   var defaultRoute = '#home';
@@ -28,7 +28,7 @@ define(function(){
 
   function startRouting(){
     window.location.hash = window.location.hash || defaultRoute;
-    setInterval(hashCheck, 100);
+    setInterval(hashCheck, 1000);
   }
 
   function hashCheck(){
@@ -43,6 +43,7 @@ define(function(){
 
   function loadController(controllerName){
     require(['controllers/' + controllerName], function(controller){
+
       controller.start();
     });
   }

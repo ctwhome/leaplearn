@@ -13,68 +13,46 @@
  */
 
 define([
-  'controllers/HomeController',
   'views/HomeView',
   'kinetic'
   ],function(
-  HomeController,
   HomeView,
-  kinetick){
+  Kinetic){
 
+  this.settings = {
+    "gestureZone" : "#gesturezone"
+  }
 
-  function start(){
-
+  /**
+   * Start funciton
+   */
+  function start() {
     HomeView.render();
+    bindtouchzonne();
+  }
 
+  function bindtouchzonne(){
 
-    /**
-     * Buttons
-     */
+    this.settings.entranceButton = area("#entranceButton");
 
-    // Entrar
-    var entranceButton = area("#entranceButton");
-    //var helpButton = area("#helpButton");
-    var backToHomeButton = area("#backToHomeButton");
-
-    //console.log("Console check: ", helpButton);
-
-    // Button Home
-    var backToHomeButton = $("#backToHomeButton").offset();
-
-    var backToHomeButtonY = backToHomeButton.top - $(window).scrollTop();
-    var backToHomeButtonX = backToHomeButton.left - $(window).scrollLeft();
-
-    /**
-     * Touch
-     */
-    var stageWidth = 1024;
-    var stageHeight = 768;
-
-    var tips = new Array(10);
-
-    var stage = new Kinetic.Stage({
+    var stageWidth = 1024,
+        stageHeight = 768,
+        tips = new Array(10),
+    stage = new Kinetic.Stage({
       container: 'stage',
       width: stageWidth,
       height: stageHeight
-    });
+    }),
+    leap = new Leap.Controller();
 
-    var leap = new Leap.Controller();
+
     leap.connect();
 
     var layer = new Kinetic.Layer();
 
 //Make ten circles to use as finger tips
     for (var t = 0; t < 10; t++) {
-      var tip = new Kinetic.Circle({
-        x: 239,
-        y: 75,
-        radius: 20,
-        fill: 'green',
-        stroke: 'black',
-        strokeWidth: 4,
-        opacity: .5,
-        visible: false
-      });
+      var tip = new Kinetic.Circle({x: 239, y: 75, radius: 20, fill: 'green', stroke: 'black', strokeWidth: 4, opacity: .5, visible: false});
       tips[t] = tip;
       layer.add(tip);
     }
@@ -91,8 +69,6 @@ define([
       var tipPointer = 0;
       var leapFrame = leap.frame();
 
-//    console.log("Console check: ", leapFrame);
-
       if (leapFrame.valid) {
         var iBox = leapFrame.interactionBox;
         for (var p = 0; p < leapFrame.pointables.length; p++) {
@@ -102,9 +78,7 @@ define([
           tips[tipPointer].setY(stageHeight - pos[1] * stageHeight);
           tips[tipPointer].setVisible(true);
 
-
-          var nameMap = ["thumb", "index", "middle", "ring", "pinky"];
-
+          //var nameMap = ["thumb", "index", "middle", "ring", "pinky"];
 
           if (pointable.touchZone == "hovering") {
             tips[tipPointer].setOpacity(.375 - pointable.touchDistance * .2);
@@ -119,7 +93,6 @@ define([
             // INDEX FINGER
             if (pointable.type === 1){
               touchButton( tips[tipPointer].attrs.x,  tips[tipPointer].attrs.y);
-
             }
           }
           else {
@@ -136,6 +109,26 @@ define([
   }
 
   /**
+   * Click button
+   *
+   * @param posX
+   * @param posY
+   */
+  function touchButton(posX, posY){
+
+    $('#postionfinger').html(
+      'PosX: '+posX+' <br/> PosY: '+ posY
+    );
+
+    // Detect button position
+    if (between(posX, this.settings.entranceButton.left, this.settings.entranceButton.right) && between(posY, this.settings.entranceButton.top, this.settings.entranceButton.bottom)) {
+      window.location.href = this.settings.gestureZone;
+    }
+
+  }
+
+
+  /**
    * Range
    * @param x
    * @param min
@@ -148,40 +141,18 @@ define([
 
 
   /**
-   * Click button
-   *
-   * @param posX
-   * @param posY
-   */
-  function touchButton(posX, posY){
-
-    $('#postionfinger').html(
-      'PosX: '+posX+' <br/> PosY: '+ posY
-
-    );
-
-    if (between(posX, entranceButton.left, entranceButton.right) && between(posY, entranceButton.top, entranceButton.bottom)) {
-      window.location.href = link_playrecorder;
-    }
-
-    if (between(posX, backToHomeButton.left, backToHomeButton.right) && between(posY, backToHomeButton.top, backToHomeButton.bottom)) {
-      $('.help-content').addClass('hide');
-      $('.index-content').removeClass('hide');
-    }
-  }
-
-
-  /**
    * Position top, left, bottom, right
    * @param {string} id
    * return array
    */
   function area(id){
-    var div = $(id).position();                           // return an object
-    var verLeft= div.left - $('body').scrollLeft();
+    var div = $(id).position(); // return an object
+
+    var verLeft = div.left - $('body').scrollLeft();
+
     var verTop = div.top - $('body').scrollTop();
-    var verRight = verLeft + $("#entranceButton").width()+ 30;
-    var verBottom = verTop + $("#entranceButton").height() + 20;
+    var verRight = verLeft + $(id).width()+ 30;
+    var verBottom = verTop + $(id).height() + 20;
 
     return {
       top: verTop,
@@ -191,17 +162,7 @@ define([
     }
   }
 
-
-  function changePages(e){
-    if (e.currentTarget.getAttribute('data-button') === "help"){
-      $('.index-content').addClass('hide');
-      $('.help-content').removeClass('hide');
-    }
-    else{
-      $('.help-content').addClass('hide');
-      $('.index-content').removeClass('hide');
-    }
-  }
-
-  return start();
+  return {
+    start:start
+  };
 })

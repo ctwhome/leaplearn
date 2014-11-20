@@ -12,6 +12,22 @@
  */
 .playback-move-hand {display: none}
 
+.homeTemplate{
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  display: block;
+
+  border: 1px solid rgba(255, 255, 255, .1);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+  position: relative;
+
+
+}
+
+
 .home-page {
     /* Space for the hands  */
     >canvas {
