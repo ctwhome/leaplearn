@@ -12,8 +12,9 @@
  /**
  * Main Function
  */
-getListFromLocalSotorage();     // LOAD FROM LOCAL STORAGEges
+getListFromLocalSotorage();     // LOAD FROM LOCAL STORAGE
 updateDataList();               // Load the algorithm
+
 
 /**
  * Leap controller

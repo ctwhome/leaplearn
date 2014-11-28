@@ -14,7 +14,7 @@ function addGestureTotheList(){
     // Add gesture to the Object
     gestureList[nameGesture] = {key: keyGesture, gesture: gesture};
 
-    console.log("Gesture saved", JSON.stringify(gestureList));
+    //console.log("Gesture saved", JSON.stringify(gestureList));
     addUIList(nameGesture, keyGesture);
     updateDataList();
 }
@@ -24,7 +24,9 @@ function addGestureTotheList(){
  */
 function removeGestureFromList(key){
     // Find the key in gesture list and update the local storage
-    one.remove(key);
+    xy_algo.DeleteUserGesture(key);
+    xz_algo.DeleteUserGesture(key);
+    yz_algo.DeleteUserGesture(key);
     delete gestureList[key];
     // Update local storage
     updateDataList();
@@ -33,6 +35,10 @@ function removeGestureFromList(key){
  * update all the data list in the application
  */
 function updateDataList(){
+    xy_algo.DeleteUserGesture();
+    xz_algo.DeleteUserGesture();
+    yz_algo.DeleteUserGesture();
+
     // Add to the gesture list, from who read the algorithm
     updateGesturesAlgorithm();
     // Update local storage
@@ -44,19 +50,6 @@ function updateDataList(){
  * listener for the data list
  * ***********************************************************************************
  */
-/***
- * Gesture List Interface
- */
-function UIlistFromLocalStorage() {
-
-    $.each(gestureList, function(k, v) {
-      //display the key and value pair: console.log(k + ' is ' + v);
-      // k: name of gesture
-      // v: v.key and v.gesture
-      //console.log("Console check: ", v);
-      addUIList(k, v.key);
-    });
-}
 
 function addUIList(nameGesture, keyGesture) {
     // Ui changes
@@ -104,7 +97,7 @@ function getGestureListJSON(){
     // GET FROM FILE
     $.getJSON("assets/data/gesture_base.json", function(json){
 
-      console.log("Console check: ", json);
+      //console.log("Console check: ", json);
         $.each(json, function(k,v) {
             nameGesture = k;
             keyGesture = v.key;

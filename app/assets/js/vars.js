@@ -3,9 +3,9 @@
  */
 
 // time (in frames) to detect if the gesture its outside of the gesture zone
-const FRAMES_OLGURA = localStorage.getItem('FRAMES_OLGURA') || 5;
 const PERCENTAGE_DETECTION = localStorage.getItem('PERCENTAGE_DETECTION') || 80;
-const SPEED_DETECTION = localStorage.getItem('SPEED_DETECTION') || 70;
+const FRAMES_OLGURA = localStorage.getItem('FRAMES_OLGURA') || 20;
+const SPEED_DETECTION = localStorage.getItem('SPEED_DETECTION') || 200;
 const PADING_CANVAS_BOX = 97;
 // AXIS 1: xy  || 2: xy & yz || 3 xy & yz & zy
 const NUM_AXIS = 1;
@@ -44,15 +44,20 @@ var fingerName          = document.getElementById("finger-name"),
 // Interface vars
 var ballr          = $('#notification-square .ball-r'),
     balll          = $('#notification-square .ball-l'),
-    $textBox        = $('#notification-square .text-notification'),
+    $textBox       = $('#notification-square .text-notification'),
     notification   = $('#notification-square');
 
 var $nameGesture= $('input#name-gesture');
 
 // OneDollar Algorithm function OneDollar(score (80), parts, size, angle, step)
-var one = new OneDollar(0, 64,250,45,2);
-var two = new OneDollar(0, 64,250,45,2);
-var three = new OneDollar(0, 64,250,45,2);
+//var one = new OneDollar(0, 64,250,45,2);
+//var two = new OneDollar(0, 64,250,45,2);
+//var three = new OneDollar(0, 64,250,45,2);
+
+var xy_algo = new DollarRecognizer();
+var xz_algo = new DollarRecognizer();
+var yz_algo = new DollarRecognizer();
+
 
 // Options for the sliders
 var optPer = {
@@ -64,14 +69,14 @@ var optPer = {
 }
 var optVel = {
   min: 1,
-  max: 250,
+  max: 350,
   value:SPEED_DETECTION,
   orientation: "horizontal",
   range: "min"
 }
 var optClousure = {
   min: 1,
-  max: 20,
+  max: 40,
   value:FRAMES_OLGURA,
   orientation: "horizontal",
   range: "min"

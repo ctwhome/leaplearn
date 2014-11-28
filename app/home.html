@@ -34,6 +34,14 @@
     <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="getGestureListJSON()">
       <span class="glyphicon glyphicon-paperclip"></span> Load example gestures
     </button>
+    <br/><br/><br/>
+
+    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="evaluation()">
+      <span class="glyphicon glyphicon-paperclip"></span> Evaluate last gestures
+    </button>
+    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="restartEvaluate()">
+      <span class="glyphicon glyphicon-paperclip"></span> restart evaluations
+    </button>
   </div>
 </aside>
 
@@ -177,16 +185,27 @@
 
 <script src="assets/js/vendor/three.min.js"></script>
 
-<script src="assets/js/vendor/leap/leap-0.6.3.min.js"></script>
+<script src="assets/js/vendor/leap/leap-0.6.4.min.js"></script>
 <script src="assets/js/vendor/leap/leap-plugins-0.1.6.js"></script>
-<script src="assets/js/vendor/leap/leap.rigged-hand-0.1.4.js"></script>
+<script src="assets/js/vendor/leap/leap.rigged-hand-0.1.5.min.js"></script>
 
 <script src="assets/js/vendor/d3.v3.min.js"></script>
 <script src="assets/js/vendor/jquery-ui.min.js"></script>
 
-<script src="assets/js/vendor/algorithm/onedollar.min.js"></script>
+
+
+<!--<script src="assets/js/vendor/algorithm/onedollar.min.js"></script>-->
+<script src="assets/js/vendor/algorithm/onedollar.js"></script>
+<script src="assets/js/oneDollar3d.js"></script>
+
 
 <script src="assets/js/vendor/KeyboardJS/keyboard.js"></script>
+
+
+<script src="assets/js/helpers/localStorageHelpers.js"></script>
+<script src="assets/js/helpers/algorithmGestures.js"></script>
+<script src="assets/js/helpers/gestureHelpers.js"></script>
+
 
 <script src="assets/js/vars.js"></script>
 <script src="assets/js/sliders.js"></script>
