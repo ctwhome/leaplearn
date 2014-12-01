@@ -46,7 +46,8 @@ function detectGesture(frame) {
         clousure = true;
       }
       readingGesture = true;
-      read(frame.id, indexFinger.stabilizedTipPosition);
+//      read(frame.id, indexFinger.stabilizedTipPosition);
+      read(frame.id, indexFinger.tipPosition);
     }
   }
 }
@@ -74,6 +75,7 @@ function stopRead() {
 
   // Mode record  || matchgesture
   recording ? recordKey() : matchGesture();
+
 
   // Reset the gesture read
   !stopReadGestures && (gesture = []);

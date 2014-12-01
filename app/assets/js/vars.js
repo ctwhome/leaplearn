@@ -3,8 +3,8 @@
  */
 
 // time (in frames) to detect if the gesture its outside of the gesture zone
-const PERCENTAGE_DETECTION = localStorage.getItem('PERCENTAGE_DETECTION') || 80;
-const FRAMES_OLGURA = localStorage.getItem('FRAMES_OLGURA') || 20;
+const PERCENTAGE_DETECTION = localStorage.getItem('PERCENTAGE_DETECTION') || 70;
+const FRAMES_OLGURA = localStorage.getItem('FRAMES_OLGURA') || 20;7
 const SPEED_DETECTION = localStorage.getItem('SPEED_DETECTION') || 200;
 const PADING_CANVAS_BOX = 97;
 // AXIS 1: xy  || 2: xy & yz || 3 xy & yz & zy
@@ -17,6 +17,7 @@ var hand, finger, indexFinger,
     gestureList = {},                          // List of gestures
     gestureNames = "",                         // Names of the gestures
     keyGesture = "",                           // Key asign to the gesture
+    predominant ="",
     frameIdActual = "",                        // Keep the frame when the gesture is stoped to add clousure
     averageResutls = {},                       // Array with the average of all the results
 
@@ -49,14 +50,25 @@ var ballr          = $('#notification-square .ball-r'),
 
 var $nameGesture= $('input#name-gesture');
 
-// OneDollar Algorithm function OneDollar(score (80), parts, size, angle, step)
-//var one = new OneDollar(0, 64,250,45,2);
-//var two = new OneDollar(0, 64,250,45,2);
-//var three = new OneDollar(0, 64,250,45,2);
 
-var xy_algo = new DollarRecognizer();
-var xz_algo = new DollarRecognizer();
-var yz_algo = new DollarRecognizer();
+/**
+ * WITH PROTRACTOR OR NOT
+ * @type {boolean}
+ */
+var algoOriginal = true;
+var useProtractor = false;
+
+if (algoOriginal) {
+  var xy_algo = new DollarRecognizer();
+  var xz_algo = new DollarRecognizer();
+  var yz_algo = new DollarRecognizer();
+}
+else{
+  //OneDollar Algorithm function OneDollar(score (80), parts, size, angle, step)
+  var one = new OneDollar(0, 64,250,45,2);
+  var two = new OneDollar(0, 64,250,45,2);
+  var three = new OneDollar(0, 64,250,45,2);
+}
 
 
 // Options for the sliders

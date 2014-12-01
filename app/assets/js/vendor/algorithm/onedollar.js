@@ -162,7 +162,7 @@ function DollarRecognizer() // constructor
       // important for every step
       b = d;
 
-      result.push(new Result(this.Unistrokes[i].Name, useProtractor ? Math.round((1.0 / b)*1000)/1000 : Math.round((1.0 - b / HalfDiagonal)*1000)/10));
+      result.push(new Result(this.Unistrokes[i].Name, useProtractor ? 1.0 / b : 1.0 - b / HalfDiagonal));
 
       //console.log("DollarRecognizer: ", new Result(this.Unistrokes[i].Name, useProtractor ? 1.0 / b : 1.0 - b / HalfDiagonal));
 

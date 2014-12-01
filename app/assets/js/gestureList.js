@@ -12,7 +12,7 @@
  */
 function addGestureTotheList(){
     // Add gesture to the Object
-    gestureList[nameGesture] = {key: keyGesture, gesture: gesture};
+    gestureList[nameGesture] = {key: keyGesture, gesture: gesture, predominant: predominant};
 
     //console.log("Gesture saved", JSON.stringify(gestureList));
     addUIList(nameGesture, keyGesture);
@@ -24,21 +24,32 @@ function addGestureTotheList(){
  */
 function removeGestureFromList(key){
     // Find the key in gesture list and update the local storage
+  if (algoOriginal) {
     xy_algo.DeleteUserGesture(key);
     xz_algo.DeleteUserGesture(key);
     yz_algo.DeleteUserGesture(key);
     delete gestureList[key];
     // Update local storage
     updateDataList();
+  }
+  else{
+    // Find the key in gesture list and update the local storage
+    one.remove(key);
+    delete gestureList[key];
+    // Update local storage
+    updateDataList();
+  }
+
 }
 /**
  * update all the data list in the application
  */
 function updateDataList(){
+  if (algoOriginal) {
     xy_algo.DeleteUserGesture();
     xz_algo.DeleteUserGesture();
     yz_algo.DeleteUserGesture();
-
+  }
     // Add to the gesture list, from who read the algorithm
     updateGesturesAlgorithm();
     // Update local storage
@@ -86,30 +97,4 @@ function addListenerRemoveGestureFromList(){
             $current.remove();
         });
     })
-}
-
-/**
- * ***********************************************************************************
- * JSON FILE SAMPLE
- * ***********************************************************************************
- */
-function getGestureListJSON(){
-    // GET FROM FILE
-    $.getJSON("assets/data/gesture_base.json", function(json){
-
-      //console.log("Console check: ", json);
-        $.each(json, function(k,v) {
-            nameGesture = k;
-            keyGesture = v.key;
-            gesture = v.gesture;
-            //console.log("Console check: ", nameGesture);
-
-            addGestureTotheList();
-        });
-
-        console.log("Gestures list data loaded.");
-        //passGesturesToAlgorithm();
-    });
-
-    addListenerRemoveGestureFromList();
 }
