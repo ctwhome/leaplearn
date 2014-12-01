@@ -25,22 +25,14 @@
   <button name="create_button" class="btn btn-sm btn-primary" onclick="record()">Create gesture</button>
   <ul class="gesture-list"></ul>
   <div class="extra-buttons">
-    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="seeStats()">
-      <span class="glyphicon glyphicon-stats"></span> See stats
-    </button>
     <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="clearDataStorage()">
       <span class="glyphicon glyphicon-floppy-disk"></span> Load defaults
     </button>
     <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="getGestureListJSON()">
       <span class="glyphicon glyphicon-paperclip"></span> Load example gestures
     </button>
-    <br/><br/><br/>
-
-    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="evaluation()">
-      <span class="glyphicon glyphicon-paperclip"></span> Evaluate last gestures
-    </button>
-    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="restartEvaluate()">
-      <span class="glyphicon glyphicon-paperclip"></span> restart evaluations
+    <button name="addExampleGestures" class="btn btn-xs btn-default" onclick="seeStats()">
+      <span class="glyphicon glyphicon-stats"></span> See stats
     </button>
   </div>
 </aside>
@@ -193,8 +185,7 @@
 <script src="assets/js/vendor/jquery-ui.min.js"></script>
 
 
-
-<script src="assets/js/vendor/algorithm/onedollar.min.js"></script>
+<!--<script src="assets/js/vendor/algorithm/onedollar.min.js"></script>-->
 <script src="assets/js/vendor/algorithm/onedollar.js"></script>
 <script src="assets/js/oneDollar3d.js"></script>
 

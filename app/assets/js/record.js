@@ -20,7 +20,6 @@ function record(){
 
     //readingGesture = false;
 
-
   /**
      * Timer draw (Recursive function)
      * @type {HTMLElement}
@@ -30,7 +29,7 @@ function record(){
         , a = 10
         , pi = Math.PI
         , t = 1;
-    (function draw() {
+    (function draw(){
         blockRead = true;
         a++; a %= 360;
         var r = ( a * pi / 180 ), x = Math.sin( r ) * 125, y = Math.cos( r ) * - 125, mid = ( a > 180 ) ? 1 : 0

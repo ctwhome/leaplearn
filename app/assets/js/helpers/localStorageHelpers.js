@@ -10,9 +10,7 @@ function updateLocalStorage(){
 // From localStorage
 function getListFromLocalSotorage(){
   gestureList = JSON.parse(localStorage.getItem('userGestures')) || {};
-
   console.log("getListFromLocalSotorage: ", gestureList);
-
   UIlistFromLocalStorage();
 }
 
@@ -30,7 +28,6 @@ function UIlistFromLocalStorage() {
     addUIList(k, v.key);
   });
 }
-
 
 
 /**
@@ -51,9 +48,7 @@ function getGestureListJSON(){
 
       addGestureTotheList();
     });
-
     console.log("Gestures list data loaded.");
-    //passGesturesToAlgorithm();
   });
 
   addListenerRemoveGestureFromList();

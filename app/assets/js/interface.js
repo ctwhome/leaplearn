@@ -33,15 +33,14 @@ function debbug(hand, indexFinger) {
   // Debug
   fingerName.innerText = indexFinger.toString();                              // Distal stablish
   fingerDistance.innerText = indexFinger.touchDistance;
-  fingerPosition.innerText = "\n" +
-    "x: " + indexFinger.stabilizedTipPosition[0] + "\n" +
-    "y: " + indexFinger.stabilizedTipPosition[1] + "\n" +
+  fingerPosition.innerText =
+    "x: " + indexFinger.stabilizedTipPosition[0] +
+    "y: " + indexFinger.stabilizedTipPosition[1] +
     "z: " + indexFinger.stabilizedTipPosition[2];
-  fingerTipPosition.innerText =  "\n" +
-  "x: " + indexFinger.tipPosition[0] + "\n" +
-  "y: " + indexFinger.tipPosition[1] + "\n" +
-  "z: " + indexFinger.tipPosition[2];
-
+  fingerTipPosition.innerText =
+    "x: " + indexFinger.tipPosition[0] +
+    "y: " + indexFinger.tipPosition[1] +
+    "z: " + indexFinger.tipPosition[2];
 }
 
 /**
@@ -171,56 +170,4 @@ function predominantPanel(predominant){
   $('.tab ul.tabs li').removeClass('active');
   var button = '.tab ul.tabs li a[data-axi="'+predominant+'"]';
   $(button).parent().addClass("active");
-  //$('#graphs canvas').filter(data).addClass("active");
-
 }
-
-
-//(function () {
-//
-//  // Load defaults or from localStorage
-//  $.each(read_axis, function (k, v) {
-//
-//    if (v) {
-//      var data = '[data-axi="' + k + '"]';
-//      $('.tab ul.tabs li a').filter(data).parent().addClass("active");
-//      $('#graphs canvas').filter(data).addClass("active");
-//
-//    }
-//
-//    $('.tab ul.tabs li a').click(function (e) {
-//      e.preventDefault();
-//
-//      var data = $(e.currentTarget).data('axi');
-//      var $buton = $(e.currentTarget).parent();
-//
-//      if ($buton.hasClass('active')) {
-//        $buton.removeClass('active');
-//        read_axis[data] = false;
-//      }
-//      else {
-//        $buton.addClass('active');
-//        read_axis[data] = true;
-//      }
-//
-//      changeColorBox3d();
-//
-//      // Set Local Storage
-//      localStorage.setItem('read_axis', JSON.stringify(read_axis));
-//    });
-//  })
-//})();
-
-
-// box colors graps
-//function changeColorBox3d(){
-//  $.each($('#graphs canvas'), function(){
-//    $(this).removeClass('active');
-//  });
-//  //$('#square3d-xy').removeClass('active');
-//  //$('#square3d-xz').removeClass('active');
-//  //$('#square3d-yz').removeClass('active');
-//  read_axis.xy && $('#square3d-xy').addClass('active');
-//  read_axis.xz && $('#square3d-xz').addClass('active');
-//  read_axis.yz && $('#square3d-yz').addClass('active');
-//}
