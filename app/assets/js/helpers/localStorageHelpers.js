@@ -5,11 +5,20 @@
  */
 function updateLocalStorage(){
   localStorage.setItem('userGestures', JSON.stringify(gestureList));
+  localStorage.setItem('pointer', pointer);
+  localStorage.setItem('protractor', protractor);
 }
 
 // From localStorage
 function getListFromLocalSotorage(){
   gestureList = JSON.parse(localStorage.getItem('userGestures')) || {};
+
+  protractor = JSON.parse(localStorage.getItem('protractor')) || false;
+  pointer = JSON.parse(localStorage.getItem('pointer')) || false;
+
+  protractor ? document.getElementById("protractor").checked = true : document.getElementById("dollar1").checked = true
+  pointer ? document.getElementById("distal").checked = true :  document.getElementById("metacarpal").checked = true
+
   console.log("getListFromLocalSotorage: ", gestureList);
   UIlistFromLocalStorage();
 }

@@ -19,7 +19,6 @@ var hand, finger, indexFinger,
     keyGesture = "",                           // Key asign to the gesture
     predominant ="",
     frameIdActual = "",                        // Keep the frame when the gesture is stoped to add clousure
-    averageResutls = {},                       // Array with the average of all the results
 
     read_axis =
       JSON.parse(localStorage.getItem('read_axis')) ||
@@ -52,23 +51,27 @@ var $nameGesture= $('input#name-gesture');
 
 
 /**
- * WITH PROTRACTOR OR NOT
- * @type {boolean}
+ * Settings radio buttons
  */
-var algoOriginal = true;
-var useProtractor = false;
 
-if (algoOriginal) {
+var protractor;// = (document.getElementById('protractor').checked) ? true : false;
+var pointer;// = (document.getElementById('distal').checked) ? true : false;
+
+$('.controls input').click(function(){
+  protractor = (document.getElementById('protractor').checked) ? true : false;
+  pointer = (document.getElementById('distal').checked) ? true : false;
+  localStorage.setItem('pointer', pointer);
+  localStorage.setItem('protractor', protractor);
+})
+
+
+/**
+ * algorithms for the different plans
+ * @type {DollarRecognizer}
+ */
   var xy_algo = new DollarRecognizer();
   var xz_algo = new DollarRecognizer();
   var yz_algo = new DollarRecognizer();
-}
-else{
-  //OneDollar Algorithm function OneDollar(score (80), parts, size, angle, step)
-  var one = new OneDollar(0, 64,250,45,2);
-  var two = new OneDollar(0, 64,250,45,2);
-  var three = new OneDollar(0, 64,250,45,2);
-}
 
 
 // Options for the sliders

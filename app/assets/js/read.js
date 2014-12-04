@@ -22,14 +22,14 @@ function detectGesture(frame) {
   var ac3 = Math.abs((Math.round(indexFinger.tipVelocity[2])));
   var speedArray = [ac1, ac2, ac3];
 
-  // If the acceleration decrement to a min STOP THE READING
+  /* If the acceleration decrement to a min STOP THE READING */
   var speed = getMaxOfArray(speedArray);
-  // wirte in debbuger
+  /* wirte in debbuger */
   aceleration.innerText = speed;
 
   var speed_detection = $('#value-vel').text();
 
-  // If the acceletation is not enough then don't start reading
+  /* If the acceletation is not enough then don't start reading */
   if (speed < speed_detection) {
     if (readingGesture) {
       if (frame.id - frameIdActual > $('#value-clousure').text()) {
@@ -38,7 +38,7 @@ function detectGesture(frame) {
       }
     }
   }
-  // if not, then start reading.
+  /* if not, then start reading. */
   else {
     if (!blockRead) {
       if (!clousure) {
@@ -46,8 +46,20 @@ function detectGesture(frame) {
         clousure = true;
       }
       readingGesture = true;
-//      read(frame.id, indexFinger.stabilizedTipPosition);
-      read(frame.id, indexFinger.tipPosition);
+
+      /**
+       * tipPosition = the tip of the finger
+       * mcpPosition = the botton of the finguer
+       * Data finger position
+       *  0 = Metacarpal
+       *  1 = Proximal phalanx
+       *  2 = Intermediate phalanx
+       *  3 = Distal phalanx
+       *  4 = forearm
+       */
+      pointer ?
+        read(frame.id, indexFinger.tipPosition) :
+        read(frame.id, indexFinger.mcpPosition) ;
     }
   }
 }
@@ -61,7 +73,6 @@ function read(frameid, screenshot) {
   gestureCounter = frameid;
 
   //Update information cartel
-
   recording ? $textBox.html(" - RECORDING -") : $textBox.html("Reading Gesture");
   gesture.push(screenshot);
 }
@@ -75,7 +86,6 @@ function stopRead() {
 
   // Mode record  || matchgesture
   recording ? recordKey() : matchGesture();
-
 
   // Reset the gesture read
   !stopReadGestures && (gesture = []);

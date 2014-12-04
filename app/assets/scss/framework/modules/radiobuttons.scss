@@ -1,0 +1,76 @@
+
+$base: #158EC6;
+$whiteLight: #ddd;
+
+
+div.controls{
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  p{
+    font-size: 0.9em;
+  }
+
+}
+
+//begin custom input styles
+input[type='radio'],
+input[type='checkbox']{
+  display:none; //hide by default
+  cursor:pointer; //make the cursor a pointer when over the items
+  &:focus,
+  &:active{
+    outline:none;  //remove the annoying outline
+  }
+  & + label{
+    cursor:pointer;
+    display:inline-block;
+    position: relative;
+    padding-left:25px;
+    margin-right:10px;
+    color: darken($base, 20%);
+    &:before,
+    &:after{
+      content:'';
+      font-family: helvetica;
+      display:inline-block;
+      width:18px;
+      height:18px;
+      left:0;
+      bottom:0;
+      text-align:center;
+      position: absolute;
+    }
+    &:before{
+      background-color:$whiteLight;
+      @include transition(all .3s ease-in-out);
+    }
+    &:after{
+      color:#fff;
+    }
+  }
+  &:checked + label:before{
+    @include box-shadow(inset 0 0 0 10px $base);
+  }
+}
+
+/*Radio Specific styles*/
+input[type='radio']{
+  & + label:before{
+    @include border-radius(50%);
+  }
+  & + label:hover:after,
+  &:checked + label:after{
+    content:'\2022';
+    position:absolute;
+    top:0px;
+    font-size:19px;
+    line-height:15px;
+  }
+  & + label:hover:after{
+    color:darken($whiteLight, 20%);
+  }
+  &:checked + label:after,
+  &:checked + label:hover:after{
+    color:#fff;
+  }
+}

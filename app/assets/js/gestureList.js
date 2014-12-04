@@ -24,32 +24,21 @@ function addGestureTotheList(){
  */
 function removeGestureFromList(key){
     // Find the key in gesture list and update the local storage
-  if (algoOriginal) {
     xy_algo.DeleteUserGesture(key);
     xz_algo.DeleteUserGesture(key);
     yz_algo.DeleteUserGesture(key);
     delete gestureList[key];
     // Update local storage
     updateDataList();
-  }
-  else{
-    // Find the key in gesture list and update the local storage
-    one.remove(key);
-    delete gestureList[key];
-    // Update local storage
-    updateDataList();
-  }
 
 }
 /**
  * update all the data list in the application
  */
 function updateDataList(){
-  if (algoOriginal) {
     xy_algo.DeleteUserGesture();
     xz_algo.DeleteUserGesture();
     yz_algo.DeleteUserGesture();
-  }
     // Add to the gesture list, from who read the algorithm
     updateGesturesAlgorithm();
     // Update local storage

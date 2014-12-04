@@ -24,6 +24,8 @@ $nameGesture.keypress(function (event) {
     record();
   }
 });
+
+
 /**
  * Debbugin function
  * @param hand
