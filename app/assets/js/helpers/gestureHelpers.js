@@ -88,5 +88,5 @@ function getMinOfArray(numArray) {
  */
 function getGestureStringlyfy(){
   var gesTostring = getAxis(gesture,0,1,2);
-  console.log("matchGesture: ",JSON.stringify(gesTostring));
+  //console.log("matchGesture: ",JSON.stringify(gesTostring));
 }

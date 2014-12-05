@@ -50,7 +50,6 @@ function checkGesture(predominant){
       case  "yz" : resultMatch.yz = yz_algo.Recognize(gestureAxis.yz, protractor); break;
     }
     writeUIelements(resultMatch[predominant])
-  console.log("checkGesture: ", protractor);
 }
 
 /**
@@ -76,6 +75,9 @@ function writeUIelements(ranking){
   var $winnerPercentage = $("#value-per").text();
   var major = protractor ? Math.round(getMaxOfArray(scoreList)*1000)/1000 : Math.round(getMaxOfArray(scoreList)*1000)/10+ "%"
 
+
+
+
   $('ul.gesture-list li').removeClass("winner");
     // Higligther winner
     protractor ? setWinner(): (major >= $winnerPercentage) && setWinner();
@@ -89,7 +91,7 @@ function writeUIelements(ranking){
     }
 
   // evaluar esto cuando se ejecute todo
-  //setTimeout(function(){eval(major); }, 400);
+  setTimeout(function(){eval(major); }, 400);
 }
 
 
@@ -100,15 +102,17 @@ var countEval = 1;
 
 
 function eval(value) {
-  var person = prompt("Es correcto el gesto realizado con el %" ,value);
-  if (person != null) {
-  //asignar el valor
-    evaluacion.push(value);
+  evaluacion.push(value);
 
-  }
-  else{
-    evaluacion.push(0);
-  }
+//  var person = prompt("Es correcto el gesto realizado con el %" ,value);
+//  if (person != null) {
+//  //asignar el valor
+//    evaluacion.push(value);
+//
+//  }
+//  else{
+//    evaluacion.push(0);
+//  }
 
   console.log("============================EVALUACION==================\n",evaluacion);
   console.log("countEval: ", countEval);
