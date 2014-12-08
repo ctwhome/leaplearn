@@ -3,11 +3,6 @@ Leap Learn
 
     Learn gestures with Leap Motion to realize actions. In Javascript.
 
-Application views
-
-![main view](https://raw.githubusercontent.com/ctwhome/leaplearn/master/readme_img/main.png)
-![recording view](https://raw.githubusercontent.com/ctwhome/leaplearn/master/readme_img/recording.png)
-![reading view](https://raw.githubusercontent.com/ctwhome/leaplearn/master/readme_img/reading.png)
 
 Installation:
 --------------
