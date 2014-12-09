@@ -83,7 +83,7 @@ gulp.task('compass', function() {
 //
 // Run node server
 //
-gulp.task('server', function(){
+gulp.task('serve', function(){
    run('cat welcome').exec();
    run('node web_server').exec()  
 })
