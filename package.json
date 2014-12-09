@@ -12,7 +12,8 @@
     "gulp-plumber": "^0.6.6",
     "gulp-run": "^1.6.4",
     "mac-keyboard": "0.0.2",
-    "node-static": "^0.7.6"
+    "node-static": "^0.7.6",
+    "opn": "^1.0.0"
   },
   "repository": {
     "type": "git",
