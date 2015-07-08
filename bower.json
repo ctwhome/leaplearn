@@ -1,0 +1,23 @@
+{
+  "name": "leaplearn",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ctwhome/leaplearn",
+  "authors": [
+    "Jesus <ctw@ctwhome.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.18",
+    "requirejs-bower": "~2.1.18"
+  }
+}
