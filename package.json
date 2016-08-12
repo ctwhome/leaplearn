@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Learn gestures with leap motion",
   "dependencies": {
-    "node-static": "^0.7.6"
+    "node-static": "^0.7.6",
+    "opn": "^4.0.2"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
