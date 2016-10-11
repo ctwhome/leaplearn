@@ -1,9 +1,0 @@
-extras
-.tmp
-.sass-cache
-bower_components
-node_modules
-.idea
-.jshintrc
-.bin
-.DS_Store
