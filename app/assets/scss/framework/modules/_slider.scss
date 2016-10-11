@@ -1,0 +1,110 @@
+//colors
+$color_gallery_approx: #ebedef;
+$color_alto_approx: #E0E0E0;
+$color_corn_approx: #f1c40f;
+$color_cinnabar_approx: #e74c3c;
+$color_curious_blue_approx: #3498db;
+$color_emerald_approx: $blue;
+$color_mountain_meadow_approx: $blue;
+$color_niagara_approx: $blue;
+$color_puerto_rico_approx: $blue;
+
+.ui-slider {
+  background: $color_gallery_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 3px;
+  height: 8px;
+  //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: none;
+  filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  .bar {
+    background: $color_mountain_meadow_approx;
+    //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none!important;
+    filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  }
+  .bar-success {
+    background-color: $color_emerald_approx;
+    filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  }
+  .bar-warning {
+    background-color: $color_corn_approx;
+    filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  }
+  .bar-danger {
+    background-color: $color_cinnabar_approx;
+    filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  }
+  .bar-info {
+    background-color: $color_curious_blue_approx;
+    filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
+  }
+}
+.ui-slider-handle {
+  background-color: $color_niagara_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-left: -9px;
+  position: absolute;
+  top: -5px;
+  z-index: 2;
+  //Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: background .25s;
+  &:hover {
+    background-color: $color_puerto_rico_approx;
+    outline: 0;
+  }
+  &:focus {
+    background-color: $color_puerto_rico_approx;
+    outline: 0;
+  }
+  &:active {
+    background-color: $color_niagara_approx;
+  }
+}
+.ui-slider-handle[style*='100'] {
+  margin-left: -15px;
+}
+.ui-slider-range {
+  background-color: $color_mountain_meadow_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 3px 0 0 3px;
+  display: block;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.ui-slider-segment {
+  background-color: $color_alto_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 50%;
+  float: left;
+  height: 3px;
+  margin: 3px -3px 0 0;
+  width: 3px;
+}
+.ui-slider-value {
+  float: right;
+  font-weight: 500;
+  margin-top: 12px;
+  &.first {
+    clear: left;
+    float: left;
+  }
+}
+
+.ui-slider.green{
+  a{
+    background-color: $green;
+  }
+
+  .ui-slider-range{
+    background-color: $green;
+  }
+}

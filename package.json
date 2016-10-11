@@ -1,0 +1,31 @@
+{
+  "name": "leaplearn",
+  "version": "0.0.0",
+  "description": "Learn gestures with leap motion",
+  "dependencies": {
+    "node-static": "^0.7.6",
+    "opn": "^4.0.2"
+  },
+  "scripts":{
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-compass": "^2.0.1",
+    "gulp-livereload": "^2.1.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-run": "^1.6.4",
+    "mac-keyboard": "^0.0.3",
+    "node-static": "^0.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctwhome/leaplearn.git"
+  },
+  "author": "Jesus Garcia ctwhome.com",
+  "license": "MIC",
+  "bugs": {
+    "url": "https://github.com/ctwhome/leaplearn/issues"
+  },
+  "homepage": "https://github.com/ctwhome/leaplearn"
+}

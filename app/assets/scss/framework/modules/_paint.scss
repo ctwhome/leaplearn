@@ -1,0 +1,56 @@
+#graphs{
+  position: relative;
+  span{
+    color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-size:0.9em;
+  }
+}
+
+#graphs-wrapper{
+  position: relative;
+  span{
+    color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-size:0.9em;
+    &.xy{
+      top: 80px;
+      left: 15px;
+    }
+    &.yz{
+      top: 80px;
+      left: 130px;
+    }
+    &.xz{
+      top: 197px;
+      left: 15px;
+    }
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: -115px 0 0 123px;
+  }
+}
+
+.square3d {
+  transition: background-color .2s ease;
+  background: {
+    color: lighten($background-color-box, 15%);
+  }
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 10px 10px;
+  z-index: -10;
+  &.active{
+    background: {
+      color: $background-color-box;
+    }
+  }
+}
